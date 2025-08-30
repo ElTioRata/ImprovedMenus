@@ -1,5 +1,5 @@
 # Improved Menus
-A mod that attemps to improve menus on Command &amp; Conquer: Generals - Zero Hour
+A mod that attemps to enhance menus on Command &amp; Conquer: Generals - Zero Hour
 
 ## Windowed tasks
 
