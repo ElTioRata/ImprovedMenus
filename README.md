@@ -12,6 +12,7 @@ A mod that attempts to enhance menus on Command &amp; Conquer: Generals - Zero H
 - [ ] MultiplayerLoadScreen
 - [ ] ReplayMenu
 - [ ] SaveLoad
+- [ ] ScoreScreen
 - [ ] SkirmishGameOptionsMenu
 - [x] WOLCustomLobby
 - [ ] WOLQuickMatchMenu
