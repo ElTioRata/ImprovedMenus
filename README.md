@@ -1,19 +1,23 @@
 # Improved Menus
 A mod that attempts to enhance menus on Command &amp; Conquer: Generals - Zero Hour
 
-## Windowed tasks
+## Windows
 
-- [x] GameInfoWindow
-- [x] GameSpyGameOptionsMenu
-- [x] GameSpyLoadScreen
+- [ ] GameInfoWindow
+- [ ] GameSpyGameOptionsMenu
+- [ ] GameSpyLoadScreen
 - [ ] LanGameOptionsMenu.wnd
-- [x] LanLobbyMenu
+- [ ] LanLobbyMenu
 - [ ] MainMenu
 - [ ] MultiplayerLoadScreen
 - [ ] ReplayMenu
 - [ ] SaveLoad
 - [ ] ScoreScreen
 - [ ] SkirmishGameOptionsMenu
-- [x] WOLCustomLobby
+- [ ] WOLCustomLobby
 - [ ] WOLQuickMatchMenu
-- [x] WOLWelcomeMenu
+- [ ] WOLWelcomeMenu
+
+## Textures
+
+To do!!!
