@@ -1321,7 +1321,7 @@ WINDOW
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
       SCREENRECT = UPPERLEFT: 52 113,
-                   BOTTOMRIGHT: 65 129,
+                   BOTTOMRIGHT: 64 129,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyGameOptionsMenu.wnd:ButtonAccept0";
       STATUS = ENABLED+IMAGE+NOINPUT+NOFOCUS;
@@ -1368,7 +1368,7 @@ WINDOW
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
       SCREENRECT = UPPERLEFT: 52 137,
-                   BOTTOMRIGHT: 65 153,
+                   BOTTOMRIGHT: 64 153,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyGameOptionsMenu.wnd:ButtonAccept1";
       STATUS = ENABLED+IMAGE+NOINPUT+NOFOCUS;
@@ -1415,7 +1415,7 @@ WINDOW
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
       SCREENRECT = UPPERLEFT: 52 161,
-                   BOTTOMRIGHT: 65 177,
+                   BOTTOMRIGHT: 64 177,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyGameOptionsMenu.wnd:ButtonAccept2";
       STATUS = ENABLED+IMAGE+NOINPUT+NOFOCUS;
@@ -1462,7 +1462,7 @@ WINDOW
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
       SCREENRECT = UPPERLEFT: 52 185,
-                   BOTTOMRIGHT: 65 201,
+                   BOTTOMRIGHT: 64 201,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyGameOptionsMenu.wnd:ButtonAccept3";
       STATUS = ENABLED+IMAGE+NOINPUT+NOFOCUS;
@@ -1509,7 +1509,7 @@ WINDOW
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
       SCREENRECT = UPPERLEFT: 52 209,
-                   BOTTOMRIGHT: 65 225,
+                   BOTTOMRIGHT: 64 225,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyGameOptionsMenu.wnd:ButtonAccept4";
       STATUS = ENABLED+IMAGE+NOINPUT+NOFOCUS;
@@ -1556,7 +1556,7 @@ WINDOW
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
       SCREENRECT = UPPERLEFT: 52 233,
-                   BOTTOMRIGHT: 65 249,
+                   BOTTOMRIGHT: 64 249,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyGameOptionsMenu.wnd:ButtonAccept5";
       STATUS = ENABLED+IMAGE+NOINPUT+NOFOCUS;
@@ -1603,7 +1603,7 @@ WINDOW
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
       SCREENRECT = UPPERLEFT: 52 257,
-                   BOTTOMRIGHT: 65 273,
+                   BOTTOMRIGHT: 64 273,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyGameOptionsMenu.wnd:ButtonAccept6";
       STATUS = ENABLED+IMAGE+NOINPUT+NOFOCUS;
@@ -1650,7 +1650,7 @@ WINDOW
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
       SCREENRECT = UPPERLEFT: 52 281,
-                   BOTTOMRIGHT: 65 297,
+                   BOTTOMRIGHT: 64 297,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyGameOptionsMenu.wnd:ButtonAccept7";
       STATUS = ENABLED+IMAGE+NOINPUT+NOFOCUS;
