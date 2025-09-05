@@ -1164,8 +1164,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = STATICTEXT;
-        SCREENRECT = UPPERLEFT: 163 320,
-                     BOTTOMRIGHT: 599 344,
+        SCREENRECT = UPPERLEFT: 174 320,
+                     BOTTOMRIGHT: 610 344,
                      CREATIONRESOLUTION: 800 600;
         NAME = "WOLWelcomeMenu.wnd:StaticTextCommunity";
         STATUS = ENABLED;
