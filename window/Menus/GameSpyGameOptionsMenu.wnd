@@ -944,8 +944,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 36 113,
-                   BOTTOMRIGHT: 49 129,
+      SCREENRECT = UPPERLEFT: 38 113,
+                   BOTTOMRIGHT: 50 129,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyGameOptionsMenu.wnd:GenericPing0";
       STATUS = ENABLED+IMAGE;
@@ -991,8 +991,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 36 137,
-                   BOTTOMRIGHT: 49 153,
+      SCREENRECT = UPPERLEFT: 38 137,
+                   BOTTOMRIGHT: 50 153,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyGameOptionsMenu.wnd:GenericPing1";
       STATUS = ENABLED+IMAGE;
@@ -1038,8 +1038,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 36 161,
-                   BOTTOMRIGHT: 49 177,
+      SCREENRECT = UPPERLEFT: 38 161,
+                   BOTTOMRIGHT: 50 177,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyGameOptionsMenu.wnd:GenericPing2";
       STATUS = ENABLED+IMAGE;
@@ -1085,8 +1085,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 36 185,
-                   BOTTOMRIGHT: 49 201,
+      SCREENRECT = UPPERLEFT: 38 185,
+                   BOTTOMRIGHT: 50 201,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyGameOptionsMenu.wnd:GenericPing3";
       STATUS = ENABLED+IMAGE;
@@ -1132,8 +1132,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 36 209,
-                   BOTTOMRIGHT: 49 225,
+      SCREENRECT = UPPERLEFT: 38 209,
+                   BOTTOMRIGHT: 50 225,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyGameOptionsMenu.wnd:GenericPing4";
       STATUS = ENABLED+IMAGE;
@@ -1179,8 +1179,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 36 233,
-                   BOTTOMRIGHT: 49 249,
+      SCREENRECT = UPPERLEFT: 38 233,
+                   BOTTOMRIGHT: 50 249,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyGameOptionsMenu.wnd:GenericPing5";
       STATUS = ENABLED+IMAGE;
@@ -1226,8 +1226,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 36 257,
-                   BOTTOMRIGHT: 49 273,
+      SCREENRECT = UPPERLEFT: 38 257,
+                   BOTTOMRIGHT: 50 273,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyGameOptionsMenu.wnd:GenericPing6";
       STATUS = ENABLED+IMAGE;
@@ -1273,8 +1273,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 36 281,
-                   BOTTOMRIGHT: 49 297,
+      SCREENRECT = UPPERLEFT: 38 281,
+                   BOTTOMRIGHT: 50 297,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyGameOptionsMenu.wnd:GenericPing7";
       STATUS = ENABLED+IMAGE;
@@ -1320,8 +1320,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 52 113,
-                   BOTTOMRIGHT: 64 129,
+      SCREENRECT = UPPERLEFT: 53 113,
+                   BOTTOMRIGHT: 65 129,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyGameOptionsMenu.wnd:ButtonAccept0";
       STATUS = ENABLED+IMAGE+NOINPUT+NOFOCUS;
@@ -1367,8 +1367,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 52 137,
-                   BOTTOMRIGHT: 64 153,
+      SCREENRECT = UPPERLEFT: 53 137,
+                   BOTTOMRIGHT: 65 153,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyGameOptionsMenu.wnd:ButtonAccept1";
       STATUS = ENABLED+IMAGE+NOINPUT+NOFOCUS;
@@ -1414,8 +1414,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 52 161,
-                   BOTTOMRIGHT: 64 177,
+      SCREENRECT = UPPERLEFT: 53 161,
+                   BOTTOMRIGHT: 65 177,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyGameOptionsMenu.wnd:ButtonAccept2";
       STATUS = ENABLED+IMAGE+NOINPUT+NOFOCUS;
@@ -1461,8 +1461,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 52 185,
-                   BOTTOMRIGHT: 64 201,
+      SCREENRECT = UPPERLEFT: 53 185,
+                   BOTTOMRIGHT: 65 201,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyGameOptionsMenu.wnd:ButtonAccept3";
       STATUS = ENABLED+IMAGE+NOINPUT+NOFOCUS;
@@ -1508,8 +1508,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 52 209,
-                   BOTTOMRIGHT: 64 225,
+      SCREENRECT = UPPERLEFT: 53 209,
+                   BOTTOMRIGHT: 65 225,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyGameOptionsMenu.wnd:ButtonAccept4";
       STATUS = ENABLED+IMAGE+NOINPUT+NOFOCUS;
@@ -1555,8 +1555,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 52 233,
-                   BOTTOMRIGHT: 64 249,
+      SCREENRECT = UPPERLEFT: 53 233,
+                   BOTTOMRIGHT: 65 249,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyGameOptionsMenu.wnd:ButtonAccept5";
       STATUS = ENABLED+IMAGE+NOINPUT+NOFOCUS;
@@ -1602,8 +1602,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 52 257,
-                   BOTTOMRIGHT: 64 273,
+      SCREENRECT = UPPERLEFT: 53 257,
+                   BOTTOMRIGHT: 65 273,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyGameOptionsMenu.wnd:ButtonAccept6";
       STATUS = ENABLED+IMAGE+NOINPUT+NOFOCUS;
@@ -1649,8 +1649,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 52 281,
-                   BOTTOMRIGHT: 64 297,
+      SCREENRECT = UPPERLEFT: 53 281,
+                   BOTTOMRIGHT: 65 297,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyGameOptionsMenu.wnd:ButtonAccept7";
       STATUS = ENABLED+IMAGE+NOINPUT+NOFOCUS;
