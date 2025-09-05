@@ -1,23 +1,34 @@
 # Improved Menus
-A mod that attempts to enhance menus on Command &amp; Conquer: Generals - Zero Hour
+A mod that attempts to enhance menus (for 16:9 ratio) on Command &amp; Conquer: Generals - Zero Hour
 
 ## Windows
 
 - [ ] GameInfoWindow
-- [ ] GameSpyGameOptionsMenu
-- [ ] GameSpyLoadScreen
+- [x] GameSpyGameOptionsMenu
+- [x] GameSpyLoadScreen
 - [ ] LanGameOptionsMenu.wnd
-- [ ] LanLobbyMenu
+- [x] LanLobbyMenu
 - [ ] MainMenu
-- [ ] MultiplayerLoadScreen
-- [ ] ReplayMenu
-- [ ] SaveLoad
-- [ ] ScoreScreen
+- [x] MultiplayerLoadScreen
+- [ ] NetworkDirectConnect
+- [x] ReplayMenu
+- [x] SaveLoad
+- [x] ScoreScreen
 - [ ] SkirmishGameOptionsMenu
-- [ ] WOLCustomLobby
+- [ ] SkirmishMapSelectMenu
+- [x] WOLCustomLobby
 - [ ] WOLQuickMatchMenu
 - [ ] WOLWelcomeMenu
 
 ## Textures
 
-To do!!!
+- [ ] defeated
+- [x] gameover
+- [x] loadpageuserinterface
+- [x] mainmenuruleruserinterface
+- [x] mp_loaduserinterface_00b
+- [x] mutiplayer_scorescreenuserinterface
+- [x] sclogosuserinterface512_001
+- [ ] SCSmShellUserInterface512_001
+- [x] TitleScreenuserinterface
+- [ ] victorius
