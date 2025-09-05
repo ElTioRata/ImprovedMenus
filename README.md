@@ -18,7 +18,7 @@ A mod that attempts to enhance menus (for 16:9 ratio) on Command &amp; Conquer: 
 - [ ] SkirmishMapSelectMenu
 - [x] WOLCustomLobby
 - [ ] WOLQuickMatchMenu
-- [ ] WOLWelcomeMenu
+- [x] WOLWelcomeMenu
 
 ## Textures
 
@@ -29,6 +29,7 @@ A mod that attempts to enhance menus (for 16:9 ratio) on Command &amp; Conquer: 
 - [x] mp_loaduserinterface_00b
 - [x] mutiplayer_scorescreenuserinterface
 - [x] sclogosuserinterface512_001
+- [ ] SCShellUserInterface512_009.tga
 - [ ] SCSmShellUserInterface512_001
 - [x] TitleScreenuserinterface
 - [ ] victorius
