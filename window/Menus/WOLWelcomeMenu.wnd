@@ -527,7 +527,7 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = USER;
-        SCREENRECT = UPPERLEFT: 163 348,
+        SCREENRECT = UPPERLEFT: 174 348,
                      BOTTOMRIGHT: 766 556,
                      CREATIONRESOLUTION: 800 600;
         NAME = "WOLWelcomeMenu.wnd:CommunityInfoParent";
@@ -574,8 +574,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = CHECKBOX;
-          SCREENRECT = UPPERLEFT: 250 388,
-                       BOTTOMRIGHT: 354 428,
+          SCREENRECT = UPPERLEFT: 256 388,
+                       BOTTOMRIGHT: 360 428,
                        CREATIONRESOLUTION: 800 600;
           NAME = "WOLWelcomeMenu.wnd:PercentUSA";
           STATUS = ENABLED+IMAGE+NOINPUT+NOFOCUS;
@@ -623,8 +623,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = CHECKBOX;
-          SCREENRECT = UPPERLEFT: 358 388,
-                       BOTTOMRIGHT: 462 428,
+          SCREENRECT = UPPERLEFT: 364 388,
+                       BOTTOMRIGHT: 468 428,
                        CREATIONRESOLUTION: 800 600;
           NAME = "WOLWelcomeMenu.wnd:PercentAmericaSuperWeaponGeneral";
           STATUS = ENABLED+IMAGE+NOINPUT+NOFOCUS;
@@ -672,8 +672,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = CHECKBOX;
-          SCREENRECT = UPPERLEFT: 466 388,
-                       BOTTOMRIGHT: 570 428,
+          SCREENRECT = UPPERLEFT: 472 388,
+                       BOTTOMRIGHT: 576 428,
                        CREATIONRESOLUTION: 800 600;
           NAME = "WOLWelcomeMenu.wnd:PercentAmericaLaserGeneral";
           STATUS = ENABLED+IMAGE+NOINPUT+NOFOCUS;
@@ -721,8 +721,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = CHECKBOX;
-          SCREENRECT = UPPERLEFT: 574 388,
-                       BOTTOMRIGHT: 678 428,
+          SCREENRECT = UPPERLEFT: 580 388,
+                       BOTTOMRIGHT: 684 428,
                        CREATIONRESOLUTION: 800 600;
           NAME = "WOLWelcomeMenu.wnd:PercentAmericaAirForceGeneral";
           STATUS = ENABLED+IMAGE+NOINPUT+NOFOCUS;
@@ -770,8 +770,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = CHECKBOX;
-          SCREENRECT = UPPERLEFT: 250 432,
-                       BOTTOMRIGHT: 354 472,
+          SCREENRECT = UPPERLEFT: 256 432,
+                       BOTTOMRIGHT: 360 472,
                        CREATIONRESOLUTION: 800 600;
           NAME = "WOLWelcomeMenu.wnd:PercentChina";
           STATUS = ENABLED+IMAGE+NOINPUT+NOFOCUS;
@@ -819,8 +819,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = CHECKBOX;
-          SCREENRECT = UPPERLEFT: 358 432,
-                       BOTTOMRIGHT: 462 472,
+          SCREENRECT = UPPERLEFT: 364 432,
+                       BOTTOMRIGHT: 468 472,
                        CREATIONRESOLUTION: 800 600;
           NAME = "WOLWelcomeMenu.wnd:PercentChinaTankGeneral";
           STATUS = ENABLED+IMAGE+NOINPUT+NOFOCUS;
@@ -868,8 +868,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = CHECKBOX;
-          SCREENRECT = UPPERLEFT: 466 432,
-                       BOTTOMRIGHT: 570 472,
+          SCREENRECT = UPPERLEFT: 472 432,
+                       BOTTOMRIGHT: 576 472,
                        CREATIONRESOLUTION: 800 600;
           NAME = "WOLWelcomeMenu.wnd:PercentChinaInfantryGeneral";
           STATUS = ENABLED+IMAGE+NOINPUT+NOFOCUS;
@@ -917,8 +917,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = CHECKBOX;
-          SCREENRECT = UPPERLEFT: 574 431,
-                       BOTTOMRIGHT: 678 472,
+          SCREENRECT = UPPERLEFT: 580 431,
+                       BOTTOMRIGHT: 684 472,
                        CREATIONRESOLUTION: 800 600;
           NAME = "WOLWelcomeMenu.wnd:PercentChinaNukeGeneral";
           STATUS = ENABLED+IMAGE+NOINPUT+NOFOCUS;
@@ -966,8 +966,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = CHECKBOX;
-          SCREENRECT = UPPERLEFT: 250 476,
-                       BOTTOMRIGHT: 354 516,
+          SCREENRECT = UPPERLEFT: 256 476,
+                       BOTTOMRIGHT: 360 516,
                        CREATIONRESOLUTION: 800 600;
           NAME = "WOLWelcomeMenu.wnd:PercentGLA";
           STATUS = ENABLED+IMAGE+NOINPUT+NOFOCUS;
@@ -1015,8 +1015,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = CHECKBOX;
-          SCREENRECT = UPPERLEFT: 358 476,
-                       BOTTOMRIGHT: 462 516,
+          SCREENRECT = UPPERLEFT: 364 476,
+                       BOTTOMRIGHT: 468 516,
                        CREATIONRESOLUTION: 800 600;
           NAME = "WOLWelcomeMenu.wnd:PercentGLAToxinGeneral";
           STATUS = ENABLED+IMAGE+NOINPUT+NOFOCUS;
@@ -1064,8 +1064,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = CHECKBOX;
-          SCREENRECT = UPPERLEFT: 466 476,
-                       BOTTOMRIGHT: 570 516,
+          SCREENRECT = UPPERLEFT: 472 476,
+                       BOTTOMRIGHT: 576 516,
                        CREATIONRESOLUTION: 800 600;
           NAME = "WOLWelcomeMenu.wnd:PercentGLADemolitionGeneral";
           STATUS = ENABLED+IMAGE+NOINPUT+NOFOCUS;
@@ -1113,8 +1113,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = CHECKBOX;
-          SCREENRECT = UPPERLEFT: 574 476,
-                       BOTTOMRIGHT: 678 516,
+          SCREENRECT = UPPERLEFT: 580 476,
+                       BOTTOMRIGHT: 684 516,
                        CREATIONRESOLUTION: 800 600;
           NAME = "WOLWelcomeMenu.wnd:PercentGLAStealthGeneral";
           STATUS = ENABLED+IMAGE+NOINPUT+NOFOCUS;
@@ -1215,7 +1215,7 @@ WINDOW
       WINDOW
         WINDOWTYPE = USER;
         SCREENRECT = UPPERLEFT: 36 348,
-                     BOTTOMRIGHT: 160 556,
+                     BOTTOMRIGHT: 171 556,
                      CREATIONRESOLUTION: 800 600;
         NAME = "WOLWelcomeMenu.wnd:RankBorder";
         STATUS = ENABLED;
@@ -1261,7 +1261,7 @@ WINDOW
         WINDOW
           WINDOWTYPE = USER;
           SCREENRECT = UPPERLEFT: 36 530,
-                       BOTTOMRIGHT: 160 530,
+                       BOTTOMRIGHT: 171 530,
                        CREATIONRESOLUTION: 800 600;
           NAME = "WOLWelcomeMenu.wnd:RankLine";
           STATUS = ENABLED;
@@ -1308,7 +1308,7 @@ WINDOW
         WINDOW
           WINDOWTYPE = PROGRESSBAR;
           SCREENRECT = UPPERLEFT: 36 530,
-                       BOTTOMRIGHT: 160 556,
+                       BOTTOMRIGHT: 170 556,
                        CREATIONRESOLUTION: 800 600;
           NAME = "WOLWelcomeMenu.wnd:ProgressBarRank";
           STATUS = ENABLED;
@@ -1354,8 +1354,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = USER;
-          SCREENRECT = UPPERLEFT: 36 348,
-                       BOTTOMRIGHT: 160 529,
+          SCREENRECT = UPPERLEFT: 37 349,
+                       BOTTOMRIGHT: 170 529,
                        CREATIONRESOLUTION: 800 600;
           NAME = "WOLWelcomeMenu.wnd:WinRank";
           STATUS = ENABLED+IMAGE;
@@ -1400,8 +1400,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = USER;
-            SCREENRECT = UPPERLEFT: 112 481,
-                         BOTTOMRIGHT: 160 529,
+            SCREENRECT = UPPERLEFT: 121 481,
+                         BOTTOMRIGHT: 169 529,
                          CREATIONRESOLUTION: 800 600;
             NAME = "WOLWelcomeMenu.wnd:FactionImage";
             STATUS = ENABLED+IMAGE;
