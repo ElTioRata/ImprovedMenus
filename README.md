@@ -32,4 +32,4 @@ A mod that attempts to enhance menus (for 16:9 ratio) on Command &amp; Conquer: 
 - [ ] SCShellUserInterface512_009.tga
 - [x] SCSmShellUserInterface512_001
 - [x] TitleScreenuserinterface
-- [x] victorius
+- [x] victorious
