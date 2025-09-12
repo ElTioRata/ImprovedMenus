@@ -22,7 +22,7 @@ A mod that attempts to enhance menus (for 16:9 ratio) on Command &amp; Conquer: 
 
 ## Textures
 
-- [ ] defeated
+- [x] defeated
 - [x] gameover
 - [x] loadpageuserinterface
 - [x] mainmenuruleruserinterface
@@ -32,4 +32,4 @@ A mod that attempts to enhance menus (for 16:9 ratio) on Command &amp; Conquer: 
 - [ ] SCShellUserInterface512_009.tga
 - [x] SCSmShellUserInterface512_001
 - [x] TitleScreenuserinterface
-- [ ] victorius
+- [x] victorious
