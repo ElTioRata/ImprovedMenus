@@ -32,3 +32,6 @@ A mod that attempts to enhance menus (for 16:9 ratio) on Command &amp; Conquer: 
 - [x] SCSmShellUserInterface512_001
 - [x] TitleScreenuserinterface
 - [x] victorious
+
+# Acknowledgements
+pWn3d_1337 - Widescreen for Zero Hour author
