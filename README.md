@@ -3,7 +3,6 @@ A mod that attempts to enhance menus (for 16:9 ratio) on Command &amp; Conquer: 
 
 ## Windows
 
-- [ ] GameInfoWindow
 - [x] GameSpyGameOptionsMenu
 - [x] GameSpyLoadScreen
 - [ ] LanGameOptionsMenu.wnd
