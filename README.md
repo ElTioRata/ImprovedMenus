@@ -34,4 +34,4 @@ A mod that attempts to enhance menus (for 16:9 ratio) on Command &amp; Conquer: 
 - [x] victorious
 
 # Acknowledgements
-pWn3d_1337 - Widescreen for Zero Hour author
+This mod is based on [Widescreen for Zero Hour](https://www.moddb.com/mods/operation-firestorm/addons/widescreen-for-zero-hour) from [pWn3d_1337](https://www.moddb.com/members/pwn3d-1337)
