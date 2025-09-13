@@ -10,7 +10,7 @@ A mod that attempts to enhance menus (for 16:9 ratio) on Command &amp; Conquer: 
 - [x] LanLobbyMenu
 - [ ] MainMenu
 - [x] MultiplayerLoadScreen
-- [ ] NetworkDirectConnect
+- [x] NetworkDirectConnect
 - [x] ReplayMenu
 - [x] SaveLoad
 - [x] ScoreScreen
