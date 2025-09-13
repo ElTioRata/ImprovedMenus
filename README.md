@@ -7,7 +7,7 @@ A mod that attempts to enhance menus (for 16:9 ratio) on Command &amp; Conquer: 
 - [x] GameSpyLoadScreen
 - [ ] LanGameOptionsMenu.wnd
 - [x] LanLobbyMenu
-- [ ] MainMenu
+- [x] MainMenu
 - [x] MultiplayerLoadScreen
 - [x] NetworkDirectConnect
 - [x] ReplayMenu
