@@ -16,7 +16,6 @@ A mod that attempts to enhance menus (for 16:9 ratio) on Command &amp; Conquer: 
 - [ ] SkirmishGameOptionsMenu
 - [ ] SkirmishMapSelectMenu
 - [x] WOLCustomLobby
-- [ ] WOLQuickMatchMenu
 - [x] WOLWelcomeMenu
 
 ## Textures
