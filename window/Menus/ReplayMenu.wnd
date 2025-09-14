@@ -53,7 +53,7 @@ WINDOW
   WINDOW
     WINDOWTYPE = USER;
     SCREENRECT = UPPERLEFT: 31 42,
-                 BOTTOMRIGHT: 769 560,
+                 BOTTOMRIGHT: 770 560,
                  CREATIONRESOLUTION: 800 600;
     NAME = "ReplayMenu.wnd:GadgetParent";
     STATUS = ENABLED;
