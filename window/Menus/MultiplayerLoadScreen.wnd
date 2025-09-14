@@ -7,7 +7,7 @@ ENDLAYOUTBLOCK
 WINDOW
   WINDOWTYPE = USER;
   SCREENRECT = UPPERLEFT: 0 0,
-               BOTTOMRIGHT: 799 599,
+               BOTTOMRIGHT: 800 600,
                CREATIONRESOLUTION: 800 600;
   NAME = "MultiplayerLoadScreen.wnd:ParentMultiplayerLoadScreen";
   STATUS = ENABLED+IMAGE;
