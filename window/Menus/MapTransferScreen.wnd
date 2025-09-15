@@ -64,7 +64,6 @@ WINDOW
     DRAWCALLBACK = "[None]";
     FONT = NAME: "Times New Roman", SIZE: 14, BOLD: 0;
     HEADERTEMPLATE = "[NONE]";
-    TOOLTIPTEXT = "";
     TOOLTIPDELAY = -1;
     TEXTCOLOR = ENABLED:  255 255 255 0, ENABLEDBORDER:  255 255 255 0,
                 DISABLED: 255 255 255 0, DISABLEDBORDER: 255 255 255 0,
@@ -1649,8 +1648,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 70 98,
-                   BOTTOMRIGHT: 731 99,
+      SCREENRECT = UPPERLEFT: 32 98,
+                   BOTTOMRIGHT: 769 99,
                    CREATIONRESOLUTION: 800 600;
       NAME = "MapTransferScreen.wnd:Line";
       STATUS = ENABLED;
