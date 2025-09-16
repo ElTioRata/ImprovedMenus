@@ -3473,8 +3473,8 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = USER;
-    SCREENRECT = UPPERLEFT: 592 119,
-                 BOTTOMRIGHT: 743 321,
+    SCREENRECT = UPPERLEFT: 593 120,
+                 BOTTOMRIGHT: 744 321,
                  CREATIONRESOLUTION: 800 600;
     NAME = "GameSpyLoadScreen.wnd:WinMapPreview";
     STATUS = ENABLED;
@@ -3995,8 +3995,8 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = USER;
-    SCREENRECT = UPPERLEFT: 57 117,
-                 BOTTOMRIGHT: 211 322,
+    SCREENRECT = UPPERLEFT: 57 118,
+                 BOTTOMRIGHT: 210 322,
                  CREATIONRESOLUTION: 800 600;
     NAME = "GameSpyLoadScreen.wnd:LocalGeneralPortrait";
     STATUS = ENABLED+IMAGE;
