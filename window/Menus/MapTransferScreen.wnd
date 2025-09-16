@@ -1649,7 +1649,7 @@ WINDOW
     WINDOW
       WINDOWTYPE = USER;
       SCREENRECT = UPPERLEFT: 32 98,
-                   BOTTOMRIGHT: 770 99,
+                   BOTTOMRIGHT: 769 99,
                    CREATIONRESOLUTION: 800 600;
       NAME = "MapTransferScreen.wnd:Line";
       STATUS = ENABLED;
