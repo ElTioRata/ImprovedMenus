@@ -11,7 +11,7 @@ A mod that attempts to enhance menus (for 16:9 ratio) on Command &amp; Conquer: 
 - [x] MainMenu
 - [x] MultiplayerLoadScreen
 - [x] NetworkDirectConnect
-- [ ] PopupPlayerInfo.wnd
+- [x] PopupPlayerInfo.wnd
 - [x] ReplayMenu
 - [x] SaveLoad
 - [x] ScoreScreen
