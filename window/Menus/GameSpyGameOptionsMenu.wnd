@@ -2218,8 +2218,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = STATICTEXT;
-      SCREENRECT = UPPERLEFT: 576 86,
-                   BOTTOMRIGHT: 731 110,
+      SCREENRECT = UPPERLEFT: 575 86,
+                   BOTTOMRIGHT: 732 110,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyGameOptionsMenu.wnd:StaticTextMapPreview";
       STATUS = ENABLED+NOINPUT+NOFOCUS;
