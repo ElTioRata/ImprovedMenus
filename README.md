@@ -1,5 +1,5 @@
 # Improved Menus
-A mod that attempts to enhance menus (for 16:9 ratio) on Command &amp; Conquer: Generals - Zero Hour
+A mod that attempts to enhance menus (for 16:9) on Command &amp; Conquer: Generals - Zero Hour
 
 ## Windows
 
@@ -18,6 +18,7 @@ A mod that attempts to enhance menus (for 16:9 ratio) on Command &amp; Conquer: 
 - [ ] SkirmishGameOptionsMenu
 - [ ] SkirmishMapSelectMenu
 - [x] WOLCustomLobby
+- [x] WOLMapSelectMenu
 - [x] WOLWelcomeMenu
 
 ## Textures
