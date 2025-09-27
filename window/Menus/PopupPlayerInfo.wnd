@@ -146,8 +146,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 58 512,
-                   BOTTOMRIGHT: 246 544,
+      SCREENRECT = UPPERLEFT: 58 511,
+                   BOTTOMRIGHT: 246 543,
                    CREATIONRESOLUTION: 800 600;
       NAME = "PopupPlayerInfo.wnd:ButtonCommunicator";
       STATUS = ENABLED+IMAGE+NOFOCUS;
@@ -352,8 +352,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 540 462,
-                   BOTTOMRIGHT: 728 492,
+      SCREENRECT = UPPERLEFT: 541 462,
+                   BOTTOMRIGHT: 729 492,
                    CREATIONRESOLUTION: 800 600;
       NAME = "PopupPlayerInfo.wnd:ButtonDeleteAccount";
       STATUS = ENABLED+IMAGE;
@@ -2107,7 +2107,7 @@ WINDOW
       WINDOW
         WINDOWTYPE = USER;
         SCREENRECT = UPPERLEFT: 122 110,
-                     BOTTOMRIGHT: 239 270,
+                     BOTTOMRIGHT: 241 270,
                      CREATIONRESOLUTION: 800 600;
         NAME = "PopupPlayerInfo.wnd:WinRank";
         STATUS = ENABLED+IMAGE;
