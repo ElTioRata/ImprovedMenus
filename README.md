@@ -4,7 +4,7 @@ A mod that attempts to enhance menus (for 16:9) on Command &amp; Conquer: Genera
 ## TO DO
 - [ ] LanGameOptionsMenu.wnd
 - [ ] SkirmishGameOptionsMenu.wnd
-- [ ] SCShellUserInterface512_009.tga
+- [ x ] SCShellUserInterface512_009.tga
 
 # Acknowledgements
 This mod is based on [Widescreen for Zero Hour](https://www.moddb.com/mods/operation-firestorm/addons/widescreen-for-zero-hour) from [pWn3d_1337](https://www.moddb.com/members/pwn3d-1337)
