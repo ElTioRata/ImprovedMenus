@@ -3,7 +3,7 @@ A mod that attempts to enhance menus (for 16:9) on Command &amp; Conquer: Genera
 
 ## TO DO
 - [ ] LanGameOptionsMenu.wnd
-- [ ] SkirmishGameOptionsMenuw.wnd
+- [ ] SkirmishGameOptionsMenu.wnd
 - [ ] SCShellUserInterface512_009.tga
 
 # Acknowledgements
