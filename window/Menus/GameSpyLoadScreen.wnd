@@ -437,8 +437,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 80 362,
-                   BOTTOMRIGHT: 100 382,
+      SCREENRECT = UPPERLEFT: 85 362,
+                   BOTTOMRIGHT: 99 382,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyLoadScreen.wnd:WinRank0";
       STATUS = ENABLED+IMAGE;
@@ -484,8 +484,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 60 362,
-                   BOTTOMRIGHT: 80 382,
+      SCREENRECT = UPPERLEFT: 65 362,
+                   BOTTOMRIGHT: 79 382,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyLoadScreen.wnd:WinOfficer0";
       STATUS = ENABLED+IMAGE;
@@ -822,8 +822,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 80 386,
-                   BOTTOMRIGHT: 100 406,
+      SCREENRECT = UPPERLEFT: 85 386,
+                   BOTTOMRIGHT: 99 406,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyLoadScreen.wnd:WinRank1";
       STATUS = ENABLED+IMAGE;
@@ -869,8 +869,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 60 386,
-                   BOTTOMRIGHT: 80 406,
+      SCREENRECT = UPPERLEFT: 65 386,
+                   BOTTOMRIGHT: 79 406,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyLoadScreen.wnd:WinOfficer1";
       STATUS = ENABLED+IMAGE;
@@ -1207,8 +1207,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 80 410,
-                   BOTTOMRIGHT: 100 430,
+      SCREENRECT = UPPERLEFT: 85 410,
+                   BOTTOMRIGHT: 99 430,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyLoadScreen.wnd:WinRank2";
       STATUS = ENABLED+IMAGE;
@@ -1254,8 +1254,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 60 410,
-                   BOTTOMRIGHT: 80 430,
+      SCREENRECT = UPPERLEFT: 65 410,
+                   BOTTOMRIGHT: 79 430,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyLoadScreen.wnd:WinOfficer2";
       STATUS = ENABLED+IMAGE;
@@ -1592,8 +1592,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 80 434,
-                   BOTTOMRIGHT: 100 454,
+      SCREENRECT = UPPERLEFT: 85 434,
+                   BOTTOMRIGHT: 99 454,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyLoadScreen.wnd:WinRank3";
       STATUS = ENABLED+IMAGE;
@@ -1639,8 +1639,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 60 434,
-                   BOTTOMRIGHT: 80 454,
+      SCREENRECT = UPPERLEFT: 65 434,
+                   BOTTOMRIGHT: 79 454,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyLoadScreen.wnd:WinOfficer3";
       STATUS = ENABLED+IMAGE;
@@ -1977,8 +1977,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 80 458,
-                   BOTTOMRIGHT: 100 478,
+      SCREENRECT = UPPERLEFT: 85 458,
+                   BOTTOMRIGHT: 99 478,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyLoadScreen.wnd:WinRank4";
       STATUS = ENABLED+IMAGE;
@@ -2024,8 +2024,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 60 458,
-                   BOTTOMRIGHT: 80 478,
+      SCREENRECT = UPPERLEFT: 65 458,
+                   BOTTOMRIGHT: 79 478,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyLoadScreen.wnd:WinOfficer4";
       STATUS = ENABLED+IMAGE;
@@ -2362,8 +2362,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 80 482,
-                   BOTTOMRIGHT: 100 502,
+      SCREENRECT = UPPERLEFT: 85 482,
+                   BOTTOMRIGHT: 99 502,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyLoadScreen.wnd:WinRank5";
       STATUS = ENABLED+IMAGE;
@@ -2409,8 +2409,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 60 482,
-                   BOTTOMRIGHT: 80 502,
+      SCREENRECT = UPPERLEFT: 65 482,
+                   BOTTOMRIGHT: 79 502,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyLoadScreen.wnd:WinOfficer5";
       STATUS = ENABLED+IMAGE;
@@ -2747,8 +2747,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 80 506,
-                   BOTTOMRIGHT: 100 526,
+      SCREENRECT = UPPERLEFT: 85 506,
+                   BOTTOMRIGHT: 99 526,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyLoadScreen.wnd:WinRank6";
       STATUS = ENABLED+IMAGE;
@@ -2794,8 +2794,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 60 506,
-                   BOTTOMRIGHT: 80 526,
+      SCREENRECT = UPPERLEFT: 65 506,
+                   BOTTOMRIGHT: 79 526,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyLoadScreen.wnd:WinOfficer6";
       STATUS = ENABLED+IMAGE;
@@ -3132,8 +3132,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 80 530,
-                   BOTTOMRIGHT: 100 550,
+      SCREENRECT = UPPERLEFT: 85 530,
+                   BOTTOMRIGHT: 99 550,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyLoadScreen.wnd:WinRank7";
       STATUS = ENABLED+IMAGE;
@@ -3179,8 +3179,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 60 530,
-                   BOTTOMRIGHT: 80 550,
+      SCREENRECT = UPPERLEFT: 65 530,
+                   BOTTOMRIGHT: 79 550,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyLoadScreen.wnd:WinOfficer7";
       STATUS = ENABLED+IMAGE;
