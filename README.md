@@ -2,9 +2,8 @@
 A mod that attempts to enhance menus (for 16:9) on Command &amp; Conquer: Generals - Zero Hour
 
 ## TO DO
-
-- [ ] SkirmishGameOptionsMenu
-- [ ] SkirmishMapSelectMenu
+- [ ] LanGameOptionsMenu.wnd
+- [ ] SkirmishGameOptionsMenuw.wnd
 - [ ] SCShellUserInterface512_009.tga
 
 # Acknowledgements
