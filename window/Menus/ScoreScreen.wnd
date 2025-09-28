@@ -536,106 +536,6 @@ WINDOW
     END
     CHILD
     WINDOW
-      WINDOWTYPE = ENTRYFIELD;
-      SCREENRECT = UPPERLEFT: 67 516,
-                   BOTTOMRIGHT: 688 540,
-                   CREATIONRESOLUTION: 800 600;
-      NAME = "ScoreScreen.wnd:TextEntryChat";
-      STATUS = ENABLED+IMAGE;
-      STYLE = ENTRYFIELD+MOUSETRACK;
-      SYSTEMCALLBACK = "[None]";
-      INPUTCALLBACK = "[None]";
-      TOOLTIPCALLBACK = "[None]";
-      DRAWCALLBACK = "[None]";
-      FONT = NAME: "Arial", SIZE: 10, BOLD: 0;
-      HEADERTEMPLATE = "TextEntry";
-      TOOLTIPDELAY = -1;
-      TEXT = "Entry";
-      TEXTCOLOR = ENABLED:  254 254 254 255, ENABLEDBORDER:  0 0 0 255,
-                  DISABLED: 192 192 192 255, DISABLEDBORDER: 64 64 64 255,
-                  HILITE:   168 255 12 255, HILITEBORDER:   1 1 1 255;
-      ENABLEDDRAWDATA = IMAGE: TextEntryEnabledLeftEnd, COLOR: 255 0 0 255, BORDERCOLOR: 255 128 128 255,
-                        IMAGE: TextEntryEnabledRightEnd, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
-                        IMAGE: TextEntryEnabledRepeatingCenter, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
-                        IMAGE: TextEntryEnabledSmallRepeatingCenter, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
-                        IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
-                        IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
-                        IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
-                        IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
-                        IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255;
-      DISABLEDDRAWDATA = IMAGE: TextEntryDisabledLeftEnd, COLOR: 128 128 128 255, BORDERCOLOR: 0 0 0 255,
-                         IMAGE: TextEntryDisabledRightEnd, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
-                         IMAGE: TextEntryDisabledRepeatingCenter, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
-                         IMAGE: TextEntryDisabledSmallRepeatingCenter, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
-                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
-                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
-                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
-                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
-                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255;
-      HILITEDRAWDATA = IMAGE: TextEntryHiliteLeftEnd, COLOR: 0 255 0 255, BORDERCOLOR: 0 128 0 255,
-                       IMAGE: TextEntryHiliteRightEnd, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
-                       IMAGE: TextEntryHiliteRepeatingCenter, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
-                       IMAGE: TextEntryHiliteSmallRepeatingCenter, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
-                       IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
-                       IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
-                       IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
-                       IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
-                       IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255;
-      TEXTENTRYDATA = MAXLEN: 128,
-                      SECRETTEXT: 0,
-                      NUMERICALONLY: 0,
-                      ALPHANUMERICALONLY: 0,
-                      ASCIIONLY: 0;
-    END
-    CHILD
-    WINDOW
-      WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 697 516,
-                   BOTTOMRIGHT: 733 540,
-                   CREATIONRESOLUTION: 800 600;
-      NAME = "ScoreScreen.wnd:ButtonEmote";
-      STATUS = ENABLED+IMAGE+NOFOCUS;
-      STYLE = PUSHBUTTON+MOUSETRACK;
-      SYSTEMCALLBACK = "[None]";
-      INPUTCALLBACK = "[None]";
-      TOOLTIPCALLBACK = "[None]";
-      DRAWCALLBACK = "[None]";
-      FONT = NAME: "Arial", SIZE: 10, BOLD: 0;
-      HEADERTEMPLATE = "LabelRegular";
-      TOOLTIPDELAY = -1;
-      TEXTCOLOR = ENABLED:  254 254 254 255, ENABLEDBORDER:  0 0 0 255,
-                  DISABLED: 192 192 192 255, DISABLEDBORDER: 64 64 64 255,
-                  HILITE:   128 128 255 255, HILITEBORDER:   0 0 128 255;
-      ENABLEDDRAWDATA = IMAGE: ReturnButton, COLOR: 255 0 0 255, BORDERCOLOR: 255 128 128 255,
-                        IMAGE: ReturnButtonHilitePushed, COLOR: 255 255 0 255, BORDERCOLOR: 254 254 254 255,
-                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
-      DISABLEDDRAWDATA = IMAGE: ReturnButtonDisabled, COLOR: 128 128 128 255, BORDERCOLOR: 192 192 192 255,
-                         IMAGE: NoImage, COLOR: 192 192 192 255, BORDERCOLOR: 128 128 128 255,
-                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
-      HILITEDRAWDATA = IMAGE: ReturnButtonHilite, COLOR: 0 255 0 255, BORDERCOLOR: 0 128 0 255,
-                       IMAGE: ReturnButtonHilitePushed, COLOR: 255 255 0 255, BORDERCOLOR: 254 254 254 255,
-                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
-    END
-    CHILD
-    WINDOW
       WINDOWTYPE = SCROLLLISTBOX;
       SCREENRECT = UPPERLEFT: 67 421,
                    BOTTOMRIGHT: 733 508,
@@ -1276,6 +1176,106 @@ WINDOW
                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
       STATICTEXTDATA = CENTERED: 1;
+    END
+    CHILD
+    WINDOW
+      WINDOWTYPE = ENTRYFIELD;
+      SCREENRECT = UPPERLEFT: 67 516,
+                   BOTTOMRIGHT: 697 540,
+                   CREATIONRESOLUTION: 800 600;
+      NAME = "ScoreScreen.wnd:TextEntryChat";
+      STATUS = ENABLED+IMAGE;
+      STYLE = ENTRYFIELD+MOUSETRACK;
+      SYSTEMCALLBACK = "[None]";
+      INPUTCALLBACK = "[None]";
+      TOOLTIPCALLBACK = "[None]";
+      DRAWCALLBACK = "[None]";
+      FONT = NAME: "Arial", SIZE: 10, BOLD: 0;
+      HEADERTEMPLATE = "TextEntry";
+      TOOLTIPDELAY = -1;
+      TEXT = "Entry";
+      TEXTCOLOR = ENABLED:  254 254 254 255, ENABLEDBORDER:  0 0 0 255,
+                  DISABLED: 192 192 192 255, DISABLEDBORDER: 64 64 64 255,
+                  HILITE:   168 255 12 255, HILITEBORDER:   1 1 1 255;
+      ENABLEDDRAWDATA = IMAGE: TextEntryEnabledLeftEnd, COLOR: 255 0 0 255, BORDERCOLOR: 255 128 128 255,
+                        IMAGE: TextEntryEnabledRightEnd, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                        IMAGE: TextEntryEnabledRepeatingCenter, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                        IMAGE: TextEntryEnabledSmallRepeatingCenter, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                        IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                        IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                        IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                        IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                        IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255;
+      DISABLEDDRAWDATA = IMAGE: TextEntryDisabledLeftEnd, COLOR: 128 128 128 255, BORDERCOLOR: 0 0 0 255,
+                         IMAGE: TextEntryDisabledRightEnd, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                         IMAGE: TextEntryDisabledRepeatingCenter, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                         IMAGE: TextEntryDisabledSmallRepeatingCenter, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255;
+      HILITEDRAWDATA = IMAGE: TextEntryHiliteLeftEnd, COLOR: 0 255 0 255, BORDERCOLOR: 0 128 0 255,
+                       IMAGE: TextEntryHiliteRightEnd, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                       IMAGE: TextEntryHiliteRepeatingCenter, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                       IMAGE: TextEntryHiliteSmallRepeatingCenter, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                       IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                       IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                       IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                       IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                       IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255;
+      TEXTENTRYDATA = MAXLEN: 128,
+                      SECRETTEXT: 0,
+                      NUMERICALONLY: 0,
+                      ALPHANUMERICALONLY: 0,
+                      ASCIIONLY: 0;
+    END
+    CHILD
+    WINDOW
+      WINDOWTYPE = PUSHBUTTON;
+      SCREENRECT = UPPERLEFT: 706 516,
+                   BOTTOMRIGHT: 733 540,
+                   CREATIONRESOLUTION: 800 600;
+      NAME = "ScoreScreen.wnd:ButtonEmote";
+      STATUS = ENABLED+IMAGE+NOFOCUS;
+      STYLE = PUSHBUTTON+MOUSETRACK;
+      SYSTEMCALLBACK = "[None]";
+      INPUTCALLBACK = "[None]";
+      TOOLTIPCALLBACK = "[None]";
+      DRAWCALLBACK = "[None]";
+      FONT = NAME: "Arial", SIZE: 10, BOLD: 0;
+      HEADERTEMPLATE = "LabelRegular";
+      TOOLTIPDELAY = -1;
+      TEXTCOLOR = ENABLED:  254 254 254 255, ENABLEDBORDER:  0 0 0 255,
+                  DISABLED: 192 192 192 255, DISABLEDBORDER: 64 64 64 255,
+                  HILITE:   128 128 255 255, HILITEBORDER:   0 0 128 255;
+      ENABLEDDRAWDATA = IMAGE: ReturnButton, COLOR: 255 0 0 255, BORDERCOLOR: 255 128 128 255,
+                        IMAGE: ReturnButtonHilitePushed, COLOR: 255 255 0 255, BORDERCOLOR: 254 254 254 255,
+                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+      DISABLEDDRAWDATA = IMAGE: ReturnButtonDisabled, COLOR: 128 128 128 255, BORDERCOLOR: 192 192 192 255,
+                         IMAGE: NoImage, COLOR: 192 192 192 255, BORDERCOLOR: 128 128 128 255,
+                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+      HILITEDRAWDATA = IMAGE: ReturnButtonHilite, COLOR: 0 255 0 255, BORDERCOLOR: 0 128 0 255,
+                       IMAGE: ReturnButtonHilitePushed, COLOR: 255 255 0 255, BORDERCOLOR: 254 254 254 255,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
     END
     ENDALLCHILDREN
   END
@@ -5571,8 +5571,8 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = STATICTEXT;
-    SCREENRECT = UPPERLEFT: 655 516,
-                 BOTTOMRIGHT: 769 540,
+    SCREENRECT = UPPERLEFT: 660 516,
+                 BOTTOMRIGHT: 769 539,
                  CREATIONRESOLUTION: 800 600;
     NAME = "ScoreScreen.wnd:StaticTextGameSaveComplete";
     STATUS = ENABLED+HIDDEN+NOINPUT+NOFOCUS;
@@ -5583,6 +5583,7 @@ WINDOW
     DRAWCALLBACK = "[None]";
     FONT = NAME: "Arial", SIZE: 10, BOLD: 0;
     HEADERTEMPLATE = "LabelRegular";
+    TOOLTIPTEXT = "";
     TOOLTIPDELAY = -1;
     TEXT = "GUI:GameSaved";
     TEXTCOLOR = ENABLED:  168 255 12 255, ENABLEDBORDER:  0 0 0 255,
