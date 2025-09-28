@@ -611,7 +611,6 @@ WINDOW
       DRAWCALLBACK = "W3DNoDraw";
       FONT = NAME: "Times New Roman", SIZE: 14, BOLD: 0;
       HEADERTEMPLATE = "[NONE]";
-      TOOLTIPTEXT = "";
       TOOLTIPDELAY = -1;
       TEXTCOLOR = ENABLED:  255 255 255 0, ENABLEDBORDER:  255 255 255 0,
                   DISABLED: 255 255 255 0, DISABLEDBORDER: 255 255 255 0,
@@ -2665,7 +2664,6 @@ WINDOW
       DRAWCALLBACK = "W3DNoDraw";
       FONT = NAME: "Times New Roman", SIZE: 14, BOLD: 0;
       HEADERTEMPLATE = "[NONE]";
-      TOOLTIPTEXT = "";
       TOOLTIPDELAY = -1;
       TEXTCOLOR = ENABLED:  255 255 255 0, ENABLEDBORDER:  255 255 255 0,
                   DISABLED: 255 255 255 0, DISABLEDBORDER: 255 255 255 0,
@@ -3526,8 +3524,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = USER;
-            SCREENRECT = UPPERLEFT: 151 237,
-                         BOTTOMRIGHT: 199 285,
+            SCREENRECT = UPPERLEFT: 127 235,
+                         BOTTOMRIGHT: 163 283,
                          CREATIONRESOLUTION: 800 600;
             NAME = "WOLQuickMatchMenu.wnd:FactionImage";
             STATUS = ENABLED+IMAGE;
@@ -3623,8 +3621,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = PROGRESSBAR;
-          SCREENRECT = UPPERLEFT: 38 284,
-                       BOTTOMRIGHT: 160 310,
+          SCREENRECT = UPPERLEFT: 39 285,
+                       BOTTOMRIGHT: 161 312,
                        CREATIONRESOLUTION: 800 600;
           NAME = "WOLQuickMatchMenu.wnd:ProgressBarRank";
           STATUS = ENABLED;

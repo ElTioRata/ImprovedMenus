@@ -2059,7 +2059,7 @@ WINDOW
       WINDOW
         WINDOWTYPE = PROGRESSBAR;
         SCREENRECT = UPPERLEFT: 121 273,
-                     BOTTOMRIGHT: 240 293,
+                     BOTTOMRIGHT: 240 295,
                      CREATIONRESOLUTION: 800 600;
         NAME = "PopupPlayerInfo.wnd:ProgressBarRank";
         STATUS = ENABLED;
@@ -2152,7 +2152,7 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = USER;
-          SCREENRECT = UPPERLEFT: 192 222,
+          SCREENRECT = UPPERLEFT: 204 222,
                        BOTTOMRIGHT: 240 270,
                        CREATIONRESOLUTION: 800 600;
           NAME = "PopupPlayerInfo.wnd:FactionImage";

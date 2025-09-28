@@ -1307,8 +1307,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = PROGRESSBAR;
-          SCREENRECT = UPPERLEFT: 36 530,
-                       BOTTOMRIGHT: 170 556,
+          SCREENRECT = UPPERLEFT: 37 531,
+                       BOTTOMRIGHT: 169 556,
                        CREATIONRESOLUTION: 800 600;
           NAME = "WOLWelcomeMenu.wnd:ProgressBarRank";
           STATUS = ENABLED;
@@ -1400,7 +1400,7 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = USER;
-            SCREENRECT = UPPERLEFT: 121 481,
+            SCREENRECT = UPPERLEFT: 133 481,
                          BOTTOMRIGHT: 169 529,
                          CREATIONRESOLUTION: 800 600;
             NAME = "WOLWelcomeMenu.wnd:FactionImage";
