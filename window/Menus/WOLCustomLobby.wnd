@@ -175,7 +175,7 @@ WINDOW
     WINDOW
       WINDOWTYPE = ENTRYFIELD;
       SCREENRECT = UPPERLEFT: 35 493,
-                   BOTTOMRIGHT: 727 517,
+                   BOTTOMRIGHT: 736 517,
                    CREATIONRESOLUTION: 800 600;
       NAME = "WOLCustomLobby.wnd:TextEntryChat";
       STATUS = ENABLED+IMAGE;
@@ -418,7 +418,7 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 730 493,
+      SCREENRECT = UPPERLEFT: 739 493,
                    BOTTOMRIGHT: 766 517,
                    CREATIONRESOLUTION: 800 600;
       NAME = "WOLCustomLobby.wnd:ButtonEmote";
