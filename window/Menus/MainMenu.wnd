@@ -383,8 +383,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = STATICTEXT;
-        SCREENRECT = UPPERLEFT: 540 116,
-                     BOTTOMRIGHT: 756 152,
+        SCREENRECT = UPPERLEFT: 559 116,
+                     BOTTOMRIGHT: 728 152,
                      CREATIONRESOLUTION: 800 600;
         NAME = "MainMenu.wnd:StaticTextSelectDifficulty";
         STATUS = ENABLED+HIDDEN;
@@ -395,6 +395,7 @@ WINDOW
         DRAWCALLBACK = "[None]";
         FONT = NAME: "Placard MT Condensed", SIZE: 14, BOLD: 0;
         HEADERTEMPLATE = "MinorTitle";
+        TOOLTIPTEXT = "";
         TOOLTIPDELAY = -1;
         TEXT = "GUI:SelectDifficulty";
         TEXTCOLOR = ENABLED:  255 255 255 255, ENABLEDBORDER:  0 0 0 255,
@@ -427,7 +428,7 @@ WINDOW
                          IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
                          IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
                          IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255;
-        STATICTEXTDATA = CENTERED: 0;
+        STATICTEXTDATA = CENTERED: 1;
       END
       ENDALLCHILDREN
     END
@@ -2928,7 +2929,7 @@ WINDOW
     INPUTCALLBACK = "[None]";
     TOOLTIPCALLBACK = "[None]";
     DRAWCALLBACK = "[None]";
-    FONT = NAME: "Generals", SIZE: 15, BOLD: 0;
+    FONT = NAME: "Placard MT Condensed", SIZE: 16, BOLD: 0;
     HEADERTEMPLATE = "MainButton";
     TOOLTIPDELAY = -1;
     TEXT = "GUI:GetUpdate";
