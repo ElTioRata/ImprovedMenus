@@ -1404,8 +1404,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 604 112,
-                   BOTTOMRIGHT: 702 242,
+      SCREENRECT = UPPERLEFT: 595 112,
+                   BOTTOMRIGHT: 712 242,
                    CREATIONRESOLUTION: 800 600;
       NAME = "SkirmishGameOptionsMenu.wnd:MapWindow";
       STATUS = ENABLED;

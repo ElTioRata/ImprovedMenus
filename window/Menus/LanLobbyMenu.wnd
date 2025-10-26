@@ -195,8 +195,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 218 520,
-                   BOTTOMRIGHT: 399 556,
+      SCREENRECT = UPPERLEFT: 35 520,
+                   BOTTOMRIGHT: 215 556,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanLobbyMenu.wnd:ButtonHost";
       STATUS = ENABLED+IMAGE;
@@ -243,8 +243,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 35 520,
-                   BOTTOMRIGHT: 215 556,
+      SCREENRECT = UPPERLEFT: 218 520,
+                   BOTTOMRIGHT: 399 556,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanLobbyMenu.wnd:ButtonJoin";
       STATUS = ENABLED+IMAGE;
