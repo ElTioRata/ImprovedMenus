@@ -3,7 +3,7 @@ A mod that attempts to enhance menus (for 16:9) on Command &amp; Conquer: Genera
 
 ## Screenshots
 <p float="left">
-  <img src="https://github.com/user-attachments/assets/c6e1755b-31ec-4fd1-997c-338fe4937454" width="1920" />
+  <img src="https://github.com/user-attachments/assets/1c8f1978-88bb-48f4-b0e4-ee48feb5893e" width="1920" />
 
 </p>
 
