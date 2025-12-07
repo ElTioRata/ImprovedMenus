@@ -506,8 +506,8 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = USER;
-    SCREENRECT = UPPERLEFT: 607 116,
-                 BOTTOMRIGHT: 692 231,
+    SCREENRECT = UPPERLEFT: 597 116,
+                 BOTTOMRIGHT: 701 231,
                  CREATIONRESOLUTION: 800 600;
     NAME = "WOLMapSelectMenu.wnd:WinMapPreview";
     STATUS = ENABLED;
