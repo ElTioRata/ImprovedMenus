@@ -8,4 +8,4 @@ An add-on that attempts to enhance menus (for 16:9) on Command &amp; Conquer: Ge
 </p>
 
 # Acknowledgements
-This mod is based on [Widescreen for Zero Hour](https://www.moddb.com/mods/operation-firestorm/addons/widescreen-for-zero-hour) from [pWn3d_1337](https://www.moddb.com/members/pwn3d-1337)
+This add-on is based on [Widescreen for Zero Hour](https://www.moddb.com/mods/operation-firestorm/addons/widescreen-for-zero-hour) from [pWn3d_1337](https://www.moddb.com/members/pwn3d-1337)
