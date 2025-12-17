@@ -1,5 +1,5 @@
 # Improved Menus
-A mod that attempts to enhance menus (for 16:9) on Command &amp; Conquer: Generals - Zero Hour
+An add-on that attempts to enhance menus (for 16:9) on Command &amp; Conquer: Generals - Zero Hour
 
 ## Screenshots
 <p float="left">
