@@ -99,7 +99,7 @@ WINDOW
     WINDOW
       WINDOWTYPE = USER;
       SCREENRECT = UPPERLEFT: 0 0,
-                   BOTTOMRIGHT: 799 599,
+                   BOTTOMRIGHT: 800 600,
                    CREATIONRESOLUTION: 800 600;
       NAME = "ChallengeMenu.wnd:BackgroundWindow";
       STATUS = ENABLED+IMAGE;
