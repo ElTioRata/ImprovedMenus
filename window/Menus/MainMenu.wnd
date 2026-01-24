@@ -395,7 +395,6 @@ WINDOW
         DRAWCALLBACK = "[None]";
         FONT = NAME: "Placard MT Condensed", SIZE: 14, BOLD: 0;
         HEADERTEMPLATE = "MinorTitle";
-        TOOLTIPTEXT = "";
         TOOLTIPDELAY = -1;
         TEXT = "GUI:SelectDifficulty";
         TEXTCOLOR = ENABLED:  255 255 255 255, ENABLEDBORDER:  0 0 0 255,
@@ -2967,8 +2966,8 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = USER;
-    SCREENRECT = UPPERLEFT: 539 16,
-                 BOTTOMRIGHT: 754 110,
+    SCREENRECT = UPPERLEFT: 542 16,
+                 BOTTOMRIGHT: 757 110,
                  CREATIONRESOLUTION: 800 600;
     NAME = "MainMenu.wnd:Logo";
     STATUS = ENABLED+IMAGE;
