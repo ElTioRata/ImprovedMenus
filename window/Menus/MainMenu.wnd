@@ -145,8 +145,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 566 276,
-                   BOTTOMRIGHT: 722 312,
+      SCREENRECT = UPPERLEFT: 567 276,
+                   BOTTOMRIGHT: 720 312,
                    CREATIONRESOLUTION: 800 600;
       NAME = "MainMenu.wnd:ButtonDiffBack";
       STATUS = ENABLED+IMAGE;
@@ -193,8 +193,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 566 236,
-                   BOTTOMRIGHT: 722 272,
+      SCREENRECT = UPPERLEFT: 567 236,
+                   BOTTOMRIGHT: 720 272,
                    CREATIONRESOLUTION: 800 600;
       NAME = "MainMenu.wnd:ButtonHard";
       STATUS = ENABLED+IMAGE;
@@ -241,8 +241,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 566 196,
-                   BOTTOMRIGHT: 722 231,
+      SCREENRECT = UPPERLEFT: 567 196,
+                   BOTTOMRIGHT: 720 232,
                    CREATIONRESOLUTION: 800 600;
       NAME = "MainMenu.wnd:ButtonMedium";
       STATUS = ENABLED+IMAGE;
@@ -289,8 +289,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 566 156,
-                   BOTTOMRIGHT: 722 191,
+      SCREENRECT = UPPERLEFT: 567 156,
+                   BOTTOMRIGHT: 720 192,
                    CREATIONRESOLUTION: 800 600;
       NAME = "MainMenu.wnd:ButtonEasy";
       STATUS = ENABLED+IMAGE;
@@ -434,8 +434,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 566 196,
-                   BOTTOMRIGHT: 722 232,
+      SCREENRECT = UPPERLEFT: 567 196,
+                   BOTTOMRIGHT: 720 232,
                    CREATIONRESOLUTION: 800 600;
       NAME = "MainMenu.wnd:ButtonMultiBack";
       STATUS = ENABLED+IMAGE;
@@ -482,8 +482,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 566 156,
-                   BOTTOMRIGHT: 722 191,
+      SCREENRECT = UPPERLEFT: 567 156,
+                   BOTTOMRIGHT: 720 192,
                    CREATIONRESOLUTION: 800 600;
       NAME = "MainMenu.wnd:ButtonNetwork";
       STATUS = ENABLED+IMAGE;
@@ -530,8 +530,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 566 116,
-                   BOTTOMRIGHT: 722 151,
+      SCREENRECT = UPPERLEFT: 567 116,
+                   BOTTOMRIGHT: 720 152,
                    CREATIONRESOLUTION: 800 600;
       NAME = "MainMenu.wnd:ButtonOnline";
       STATUS = ENABLED+IMAGE;
@@ -626,8 +626,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 566 196,
-                   BOTTOMRIGHT: 722 232,
+      SCREENRECT = UPPERLEFT: 567 196,
+                   BOTTOMRIGHT: 720 232,
                    CREATIONRESOLUTION: 800 600;
       NAME = "MainMenu.wnd:ButtonLoadReplayBack";
       STATUS = ENABLED+IMAGE;
@@ -674,8 +674,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 566 156,
-                   BOTTOMRIGHT: 722 191,
+      SCREENRECT = UPPERLEFT: 567 156,
+                   BOTTOMRIGHT: 720 192,
                    CREATIONRESOLUTION: 800 600;
       NAME = "MainMenu.wnd:ButtonReplay";
       STATUS = ENABLED+IMAGE;
@@ -722,8 +722,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 566 116,
-                   BOTTOMRIGHT: 722 151,
+      SCREENRECT = UPPERLEFT: 567 116,
+                   BOTTOMRIGHT: 720 152,
                    CREATIONRESOLUTION: 800 600;
       NAME = "MainMenu.wnd:ButtonLoadGame";
       STATUS = ENABLED+IMAGE;
@@ -818,8 +818,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 566 316,
-                   BOTTOMRIGHT: 722 351,
+      SCREENRECT = UPPERLEFT: 567 316,
+                   BOTTOMRIGHT: 720 352,
                    CREATIONRESOLUTION: 800 600;
       NAME = "MainMenu.wnd:ButtonSingleBack";
       STATUS = ENABLED+IMAGE;
@@ -866,8 +866,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 566 276,
-                   BOTTOMRIGHT: 722 312,
+      SCREENRECT = UPPERLEFT: 567 276,
+                   BOTTOMRIGHT: 720 312,
                    CREATIONRESOLUTION: 800 600;
       NAME = "MainMenu.wnd:ButtonSkirmish";
       STATUS = ENABLED+IMAGE;
@@ -915,8 +915,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 566 196,
-                   BOTTOMRIGHT: 722 231,
+      SCREENRECT = UPPERLEFT: 567 196,
+                   BOTTOMRIGHT: 720 232,
                    CREATIONRESOLUTION: 800 600;
       NAME = "MainMenu.wnd:ButtonChina";
       STATUS = ENABLED+IMAGE;
@@ -964,8 +964,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 566 156,
-                   BOTTOMRIGHT: 722 192,
+      SCREENRECT = UPPERLEFT: 567 156,
+                   BOTTOMRIGHT: 720 192,
                    CREATIONRESOLUTION: 800 600;
       NAME = "MainMenu.wnd:ButtonGLA";
       STATUS = ENABLED+IMAGE;
@@ -1013,8 +1013,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 566 116,
-                   BOTTOMRIGHT: 722 152,
+      SCREENRECT = UPPERLEFT: 567 116,
+                   BOTTOMRIGHT: 720 152,
                    CREATIONRESOLUTION: 800 600;
       NAME = "MainMenu.wnd:ButtonUSA";
       STATUS = ENABLED+IMAGE;
@@ -1062,8 +1062,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 566 236,
-                   BOTTOMRIGHT: 722 272,
+      SCREENRECT = UPPERLEFT: 567 236,
+                   BOTTOMRIGHT: 720 272,
                    CREATIONRESOLUTION: 800 600;
       NAME = "MainMenu.wnd:ButtonChallenge";
       STATUS = ENABLED+IMAGE;
@@ -1159,8 +1159,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 566 316,
-                   BOTTOMRIGHT: 722 352,
+      SCREENRECT = UPPERLEFT: 567 316,
+                   BOTTOMRIGHT: 720 352,
                    CREATIONRESOLUTION: 800 600;
       NAME = "MainMenu.wnd:ButtonExit";
       STATUS = ENABLED+IMAGE;
@@ -1207,8 +1207,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 566 276,
-                   BOTTOMRIGHT: 722 312,
+      SCREENRECT = UPPERLEFT: 567 276,
+                   BOTTOMRIGHT: 720 312,
                    CREATIONRESOLUTION: 800 600;
       NAME = "MainMenu.wnd:ButtonCredits";
       STATUS = ENABLED+IMAGE;
@@ -1255,8 +1255,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 566 236,
-                   BOTTOMRIGHT: 722 272,
+      SCREENRECT = UPPERLEFT: 567 236,
+                   BOTTOMRIGHT: 720 272,
                    CREATIONRESOLUTION: 800 600;
       NAME = "MainMenu.wnd:ButtonOptions";
       STATUS = ENABLED+IMAGE;
@@ -1303,8 +1303,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 566 196,
-                   BOTTOMRIGHT: 722 231,
+      SCREENRECT = UPPERLEFT: 567 196,
+                   BOTTOMRIGHT: 720 232,
                    CREATIONRESOLUTION: 800 600;
       NAME = "MainMenu.wnd:ButtonLoadReplay";
       STATUS = ENABLED+IMAGE;
@@ -1351,8 +1351,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 566 156,
-                   BOTTOMRIGHT: 722 192,
+      SCREENRECT = UPPERLEFT: 567 156,
+                   BOTTOMRIGHT: 720 192,
                    CREATIONRESOLUTION: 800 600;
       NAME = "MainMenu.wnd:ButtonMultiplayer";
       STATUS = ENABLED+IMAGE;
@@ -1399,8 +1399,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 566 116,
-                   BOTTOMRIGHT: 722 152,
+      SCREENRECT = UPPERLEFT: 567 116,
+                   BOTTOMRIGHT: 720 152,
                    CREATIONRESOLUTION: 800 600;
       NAME = "MainMenu.wnd:ButtonSinglePlayer";
       STATUS = ENABLED+IMAGE;
