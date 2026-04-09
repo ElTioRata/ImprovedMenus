@@ -242,8 +242,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 301 368,
-                   BOTTOMRIGHT: 732 479,
+      SCREENRECT = UPPERLEFT: 215 442,
+                   BOTTOMRIGHT: 583 556,
                    CREATIONRESOLUTION: 800 600;
       NAME = "SkirmishGameOptionsMenu.wnd:";
       STATUS = ENABLED;
@@ -289,8 +289,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = SCROLLLISTBOX;
-      SCREENRECT = UPPERLEFT: 302 369,
-                   BOTTOMRIGHT: 730 477,
+      SCREENRECT = UPPERLEFT: 218 445,
+                   BOTTOMRIGHT: 580 553,
                    CREATIONRESOLUTION: 800 600;
       NAME = "SkirmishGameOptionsMenu.wnd:ListboxInfo";
       STATUS = ENABLED;
@@ -866,8 +866,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 69 368,
-                   BOTTOMRIGHT: 298 479,
+      SCREENRECT = UPPERLEFT: 35 442,
+                   BOTTOMRIGHT: 212 556,
                    CREATIONRESOLUTION: 800 600;
       NAME = "SkirmishGameOptionsMenu.wnd:Statistics";
       STATUS = ENABLED;
@@ -912,8 +912,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = STATICTEXT;
-        SCREENRECT = UPPERLEFT: 71 451,
-                     BOTTOMRIGHT: 229 477,
+        SCREENRECT = UPPERLEFT: 38 528,
+                     BOTTOMRIGHT: 176 553,
                      CREATIONRESOLUTION: 800 600;
         NAME = "SkirmishGameOptionsMenu.wnd:StaticTextLosses";
         STATUS = ENABLED+IMAGE;
@@ -961,8 +961,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = STATICTEXT;
-        SCREENRECT = UPPERLEFT: 245 451,
-                     BOTTOMRIGHT: 296 477,
+        SCREENRECT = UPPERLEFT: 179 528,
+                     BOTTOMRIGHT: 209 553,
                      CREATIONRESOLUTION: 800 600;
         NAME = "SkirmishGameOptionsMenu.wnd:StaticTextLossesValue";
         STATUS = ENABLED+IMAGE;
@@ -1010,8 +1010,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = STATICTEXT;
-        SCREENRECT = UPPERLEFT: 71 424,
-                     BOTTOMRIGHT: 229 450,
+        SCREENRECT = UPPERLEFT: 38 500,
+                     BOTTOMRIGHT: 176 525,
                      CREATIONRESOLUTION: 800 600;
         NAME = "SkirmishGameOptionsMenu.wnd:StaticTextWins";
         STATUS = ENABLED+IMAGE;
@@ -1059,8 +1059,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = STATICTEXT;
-        SCREENRECT = UPPERLEFT: 245 424,
-                     BOTTOMRIGHT: 296 450,
+        SCREENRECT = UPPERLEFT: 179 500,
+                     BOTTOMRIGHT: 209 525,
                      CREATIONRESOLUTION: 800 600;
         NAME = "SkirmishGameOptionsMenu.wnd:StaticTextWinsValue";
         STATUS = ENABLED+IMAGE;
@@ -1108,8 +1108,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = STATICTEXT;
-        SCREENRECT = UPPERLEFT: 71 397,
-                     BOTTOMRIGHT: 229 423,
+        SCREENRECT = UPPERLEFT: 38 473,
+                     BOTTOMRIGHT: 176 498,
                      CREATIONRESOLUTION: 800 600;
         NAME = "SkirmishGameOptionsMenu.wnd:StaticTextStreak";
         STATUS = ENABLED+IMAGE;
@@ -1157,8 +1157,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = STATICTEXT;
-        SCREENRECT = UPPERLEFT: 245 397,
-                     BOTTOMRIGHT: 296 423,
+        SCREENRECT = UPPERLEFT: 179 473,
+                     BOTTOMRIGHT: 209 498,
                      CREATIONRESOLUTION: 800 600;
         NAME = "SkirmishGameOptionsMenu.wnd:StaticTextStreakValue";
         STATUS = ENABLED+IMAGE;
@@ -1206,8 +1206,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = STATICTEXT;
-        SCREENRECT = UPPERLEFT: 71 370,
-                     BOTTOMRIGHT: 229 396,
+        SCREENRECT = UPPERLEFT: 38 445,
+                     BOTTOMRIGHT: 176 471,
                      CREATIONRESOLUTION: 800 600;
         NAME = "SkirmishGameOptionsMenu.wnd:StaticTextBestStreak";
         STATUS = ENABLED+IMAGE;
@@ -1255,8 +1255,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = STATICTEXT;
-        SCREENRECT = UPPERLEFT: 245 370,
-                     BOTTOMRIGHT: 296 396,
+        SCREENRECT = UPPERLEFT: 179 445,
+                     BOTTOMRIGHT: 209 471,
                      CREATIONRESOLUTION: 800 600;
         NAME = "SkirmishGameOptionsMenu.wnd:StaticTextBestStreakValue";
         STATUS = ENABLED+IMAGE;
