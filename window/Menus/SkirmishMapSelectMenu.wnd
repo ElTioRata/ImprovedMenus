@@ -100,8 +100,8 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = SCROLLLISTBOX;
-    SCREENRECT = UPPERLEFT: 219 139,
-                 BOTTOMRIGHT: 567 298,
+    SCREENRECT = UPPERLEFT: 215 139,
+                 BOTTOMRIGHT: 583 556,
                  CREATIONRESOLUTION: 800 600;
     NAME = "SkirmishMapSelectMenu.wnd:ListboxMap";
     STATUS = ENABLED;
@@ -313,8 +313,8 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = RADIOBUTTON;
-    SCREENRECT = UPPERLEFT: 219 114,
-                 BOTTOMRIGHT: 387 136,
+    SCREENRECT = UPPERLEFT: 215 111,
+                 BOTTOMRIGHT: 397 136,
                  CREATIONRESOLUTION: 800 600;
     NAME = "SkirmishMapSelectMenu.wnd:RadioButtonSystemMaps";
     STATUS = ENABLED+IMAGE;
@@ -362,8 +362,8 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = RADIOBUTTON;
-    SCREENRECT = UPPERLEFT: 399 114,
-                 BOTTOMRIGHT: 567 136,
+    SCREENRECT = UPPERLEFT: 401 111,
+                 BOTTOMRIGHT: 583 136,
                  CREATIONRESOLUTION: 800 600;
     NAME = "SkirmishMapSelectMenu.wnd:RadioButtonUserMaps";
     STATUS = ENABLED+IMAGE;
@@ -411,8 +411,8 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = USER;
-    SCREENRECT = UPPERLEFT: 597 116,
-                 BOTTOMRIGHT: 701 231,
+    SCREENRECT = UPPERLEFT: 587 112,
+                 BOTTOMRIGHT: 766 304,
                  CREATIONRESOLUTION: 800 600;
     NAME = "SkirmishMapSelectMenu.wnd:WinMapPreview";
     STATUS = ENABLED;
@@ -835,8 +835,8 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = STATICTEXT;
-    SCREENRECT = UPPERLEFT: 215 85,
-                 BOTTOMRIGHT: 731 110,
+    SCREENRECT = UPPERLEFT: 215 83,
+                 BOTTOMRIGHT: 731 108,
                  CREATIONRESOLUTION: 800 600;
     NAME = "SkirmishMapSelectMenu.wnd:SelectAMap";
     STATUS = ENABLED+NOINPUT+NOFOCUS;
