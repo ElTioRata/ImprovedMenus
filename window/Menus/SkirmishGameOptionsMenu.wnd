@@ -98,8 +98,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 69 511,
-                   BOTTOMRIGHT: 243 547,
+      SCREENRECT = UPPERLEFT: 586 481,
+                   BOTTOMRIGHT: 766 517,
                    CREATIONRESOLUTION: 800 600;
       NAME = "SkirmishGameOptionsMenu.wnd:ButtonStart";
       STATUS = ENABLED+IMAGE+NOFOCUS;
@@ -146,8 +146,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 568 332,
-                   BOTTOMRIGHT: 735 356,
+      SCREENRECT = UPPERLEFT: 586 442,
+                   BOTTOMRIGHT: 766 478,
                    CREATIONRESOLUTION: 800 600;
       NAME = "SkirmishGameOptionsMenu.wnd:ButtonReset";
       STATUS = ENABLED+HIDDEN+IMAGE+NOFOCUS;
@@ -194,8 +194,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 558 511,
-                   BOTTOMRIGHT: 732 547,
+      SCREENRECT = UPPERLEFT: 586 520,
+                   BOTTOMRIGHT: 766 556,
                    CREATIONRESOLUTION: 800 600;
       NAME = "SkirmishGameOptionsMenu.wnd:ButtonBack";
       STATUS = ENABLED+IMAGE+NOFOCUS;
