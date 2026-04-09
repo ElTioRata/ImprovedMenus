@@ -9788,8 +9788,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 31 80,
-                   BOTTOMRIGHT: 770 81,
+      SCREENRECT = UPPERLEFT: 31 78,
+                   BOTTOMRIGHT: 770 79,
                    CREATIONRESOLUTION: 800 600;
       NAME = "SkirmishGameOptionsMenu.wnd:Line";
       STATUS = ENABLED;
@@ -9835,8 +9835,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = STATICTEXT;
-      SCREENRECT = UPPERLEFT: 32 43,
-                   BOTTOMRIGHT: 368 79,
+      SCREENRECT = UPPERLEFT: 31 43,
+                   BOTTOMRIGHT: 770 79,
                    CREATIONRESOLUTION: 800 600;
       NAME = "SkirmishGameOptionsMenu.wnd:StaticTextTitle";
       STATUS = ENABLED+NOINPUT+NOFOCUS;
