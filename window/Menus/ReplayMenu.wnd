@@ -144,8 +144,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = SCROLLLISTBOX;
-        SCREENRECT = UPPERLEFT: 57 152,
-                     BOTTOMRIGHT: 541 428,
+        SCREENRECT = UPPERLEFT: 35 84,
+                     BOTTOMRIGHT: 583 556,
                      CREATIONRESOLUTION: 800 600;
         NAME = "ReplayMenu.wnd:ListboxReplayFiles";
         STATUS = ENABLED;
@@ -311,8 +311,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 552 393,
-                     BOTTOMRIGHT: 724 429,
+        SCREENRECT = UPPERLEFT: 586 520,
+                     BOTTOMRIGHT: 766 556,
                      CREATIONRESOLUTION: 800 600;
         NAME = "ReplayMenu.wnd:ButtonBack";
         STATUS = ENABLED+IMAGE;
@@ -359,8 +359,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 552 249,
-                     BOTTOMRIGHT: 724 285,
+        SCREENRECT = UPPERLEFT: 586 481,
+                     BOTTOMRIGHT: 766 517,
                      CREATIONRESOLUTION: 800 600;
         NAME = "ReplayMenu.wnd:ButtonCopyReplay";
         STATUS = ENABLED+IMAGE;
@@ -407,8 +407,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 552 201,
-                     BOTTOMRIGHT: 724 237,
+        SCREENRECT = UPPERLEFT: 586 442,
+                     BOTTOMRIGHT: 766 478,
                      CREATIONRESOLUTION: 800 600;
         NAME = "ReplayMenu.wnd:ButtonDeleteReplay";
         STATUS = ENABLED+IMAGE;
@@ -455,8 +455,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 552 153,
-                     BOTTOMRIGHT: 724 189,
+        SCREENRECT = UPPERLEFT: 586 403,
+                     BOTTOMRIGHT: 766 439,
                      CREATIONRESOLUTION: 800 600;
         NAME = "ReplayMenu.wnd:ButtonLoadReplay";
         STATUS = ENABLED+IMAGE;
