@@ -98,8 +98,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 47 502,
-                   BOTTOMRIGHT: 723 555,
+      SCREENRECT = UPPERLEFT: 586 403,
+                   BOTTOMRIGHT: 766 556,
                    CREATIONRESOLUTION: 800 600;
       NAME = "SaveLoad.wnd:MenuButtonFrame";
       STATUS = ENABLED;
@@ -144,8 +144,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 567 510,
-                     BOTTOMRIGHT: 723 542,
+        SCREENRECT = UPPERLEFT: 586 520,
+                     BOTTOMRIGHT: 766 556,
                      CREATIONRESOLUTION: 800 600;
         NAME = "SaveLoad.wnd:ButtonBack";
         STATUS = ENABLED+IMAGE;
@@ -192,8 +192,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 223 510,
-                     BOTTOMRIGHT: 379 542,
+        SCREENRECT = UPPERLEFT: 586 403,
+                     BOTTOMRIGHT: 766 439,
                      CREATIONRESOLUTION: 800 600;
         NAME = "SaveLoad.wnd:ButtonLoad";
         STATUS = ENABLED+IMAGE;
@@ -240,8 +240,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 51 510,
-                     BOTTOMRIGHT: 207 542,
+        SCREENRECT = UPPERLEFT: 586 442,
+                     BOTTOMRIGHT: 766 478,
                      CREATIONRESOLUTION: 800 600;
         NAME = "SaveLoad.wnd:ButtonSave";
         STATUS = ENABLED+IMAGE;
@@ -288,8 +288,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 395 510,
-                     BOTTOMRIGHT: 552 542,
+        SCREENRECT = UPPERLEFT: 586 481,
+                     BOTTOMRIGHT: 766 517,
                      CREATIONRESOLUTION: 800 600;
         NAME = "SaveLoad.wnd:ButtonDelete";
         STATUS = ENABLED+IMAGE;
