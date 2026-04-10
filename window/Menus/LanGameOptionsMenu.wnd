@@ -98,8 +98,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 705 475,
-                   BOTTOMRIGHT: 732 499,
+      SCREENRECT = UPPERLEFT: 553 520,
+                   BOTTOMRIGHT: 583 556,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanGameOptionsMenu.wnd:ButtonEmote";
       STATUS = ENABLED+IMAGE+NOFOCUS;
@@ -145,8 +145,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 69 511,
-                   BOTTOMRIGHT: 243 547,
+      SCREENRECT = UPPERLEFT: 586 481,
+                   BOTTOMRIGHT: 766 517,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanGameOptionsMenu.wnd:ButtonStart";
       STATUS = ENABLED+IMAGE+NOFOCUS;
@@ -193,8 +193,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = ENTRYFIELD;
-      SCREENRECT = UPPERLEFT: 69 475,
-                   BOTTOMRIGHT: 693 499,
+      SCREENRECT = UPPERLEFT: 35 520,
+                   BOTTOMRIGHT: 550 556,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanGameOptionsMenu.wnd:TextEntryChat";
       STATUS = ENABLED+IMAGE;
@@ -246,8 +246,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = SCROLLLISTBOX;
-      SCREENRECT = UPPERLEFT: 69 347,
-                   BOTTOMRIGHT: 732 463,
+      SCREENRECT = UPPERLEFT: 35 401,
+                   BOTTOMRIGHT: 583 517,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanGameOptionsMenu.wnd:ListboxChatWindowLanGame";
       STATUS = ENABLED+NOFOCUS;
@@ -750,8 +750,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 558 511,
-                   BOTTOMRIGHT: 732 547,
+      SCREENRECT = UPPERLEFT: 586 520,
+                   BOTTOMRIGHT: 766 556,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanGameOptionsMenu.wnd:ButtonBack";
       STATUS = ENABLED+IMAGE+NOFOCUS;
