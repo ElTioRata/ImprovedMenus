@@ -409,8 +409,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = CHECKBOX;
-      SCREENRECT = UPPERLEFT: 69 313,
-                   BOTTOMRIGHT: 221 337,
+      SCREENRECT = UPPERLEFT: 35 371,
+                   BOTTOMRIGHT: 212 395,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanGameOptionsMenu.wnd:CheckboxLimitSuperweapons";
       STATUS = ENABLED+IMAGE;
@@ -458,10 +458,10 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = STATICTEXT;
-      SCREENRECT = UPPERLEFT: 238 313,
-                   BOTTOMRIGHT: 323 337,
+      SCREENRECT = UPPERLEFT: 35 339,
+                   BOTTOMRIGHT: 120 363,
                    CREATIONRESOLUTION: 800 600;
-      NAME = "LanGameOptionsMenu.wnd:";
+      NAME = "LanGameOptionsMenu.wnd:StaticTextStaticText";
       STATUS = ENABLED+IMAGE;
       STYLE = STATICTEXT+MOUSETRACK;
       SYSTEMCALLBACK = "[None]";
@@ -503,13 +503,13 @@ WINDOW
                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
-      STATICTEXTDATA = CENTERED: 1;
+      STATICTEXTDATA = CENTERED: 0;
     END
     CHILD
     WINDOW
       WINDOWTYPE = COMBOBOX;
-      SCREENRECT = UPPERLEFT: 323 313,
-                   BOTTOMRIGHT: 427 337,
+      SCREENRECT = UPPERLEFT: 123 339,
+                   BOTTOMRIGHT: 212 363,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanGameOptionsMenu.wnd:ComboBoxStartingCash";
       STATUS = ENABLED+IMAGE;
