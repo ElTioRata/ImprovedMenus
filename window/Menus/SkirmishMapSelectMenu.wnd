@@ -7,7 +7,7 @@ ENDLAYOUTBLOCK
 WINDOW
   WINDOWTYPE = USER;
   SCREENRECT = UPPERLEFT: 215 83,
-               BOTTOMRIGHT: 770 560,
+               BOTTOMRIGHT: 770 439,
                CREATIONRESOLUTION: 800 600;
   NAME = "SkirmishMapSelectMenu.wnd:SkirmishMapSelectMenuParent";
   STATUS = ENABLED+NOFOCUS+SEE_THRU;
@@ -101,7 +101,7 @@ WINDOW
   WINDOW
     WINDOWTYPE = SCROLLLISTBOX;
     SCREENRECT = UPPERLEFT: 215 139,
-                 BOTTOMRIGHT: 583 556,
+                 BOTTOMRIGHT: 583 439,
                  CREATIONRESOLUTION: 800 600;
     NAME = "SkirmishMapSelectMenu.wnd:ListboxMap";
     STATUS = ENABLED;
