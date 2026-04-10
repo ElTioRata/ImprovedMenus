@@ -484,9 +484,9 @@ WINDOW
                     SCROLLBAR: 1,
                     MULTISELECT: 0,
                     COLUMNS: 3,
-                    COLUMNSWIDTH: 60,
-                    COLUMNSWIDTH: 20,
-                    COLUMNSWIDTH: 20,
+                    COLUMNSWIDTH: 81,
+                    COLUMNSWIDTH: 7,
+                    COLUMNSWIDTH: 12,
                     FORCESELECT: 1;
       LISTBOXENABLEDUPBUTTONDRAWDATA = IMAGE: VSliderUpButtonEnabled, COLOR: 0 0 0 126, BORDERCOLOR: 49 55 168 255,
                                        IMAGE: VSliderUpButtonHiliteSelected, COLOR: 255 255 0 255, BORDERCOLOR: 254 254 254 255,
