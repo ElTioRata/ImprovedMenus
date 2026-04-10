@@ -98,8 +98,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 705 475,
-                   BOTTOMRIGHT: 732 499,
+      SCREENRECT = UPPERLEFT: 553 520,
+                   BOTTOMRIGHT: 583 556,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyGameOptionsMenu.wnd:ButtonEmote";
       STATUS = ENABLED+IMAGE+NOFOCUS;
@@ -342,8 +342,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 69 511,
-                   BOTTOMRIGHT: 243 547,
+      SCREENRECT = UPPERLEFT: 586 481,
+                   BOTTOMRIGHT: 766 517,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyGameOptionsMenu.wnd:ButtonStart";
       STATUS = ENABLED+IMAGE+NOFOCUS;
@@ -390,8 +390,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = ENTRYFIELD;
-      SCREENRECT = UPPERLEFT: 69 475,
-                   BOTTOMRIGHT: 693 499,
+      SCREENRECT = UPPERLEFT: 35 520,
+                   BOTTOMRIGHT: 550 556,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyGameOptionsMenu.wnd:TextEntryChat";
       STATUS = ENABLED+IMAGE;
@@ -443,8 +443,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 558 511,
-                   BOTTOMRIGHT: 732 547,
+      SCREENRECT = UPPERLEFT: 586 520,
+                   BOTTOMRIGHT: 766 556,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyGameOptionsMenu.wnd:ButtonBack";
       STATUS = ENABLED+IMAGE+NOFOCUS;
@@ -491,8 +491,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 314 511,
-                   BOTTOMRIGHT: 487 547,
+      SCREENRECT = UPPERLEFT: 586 442,
+                   BOTTOMRIGHT: 766 478,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyGameOptionsMenu.wnd:ButtonCommunicator";
       STATUS = ENABLED+IMAGE+NOFOCUS;
@@ -539,8 +539,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = SCROLLLISTBOX;
-      SCREENRECT = UPPERLEFT: 69 347,
-                   BOTTOMRIGHT: 732 463,
+      SCREENRECT = UPPERLEFT: 35 403,
+                   BOTTOMRIGHT: 583 517,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyGameOptionsMenu.wnd:ListboxChatWindowGameSpyGameSetup";
       STATUS = ENABLED+NOFOCUS;
