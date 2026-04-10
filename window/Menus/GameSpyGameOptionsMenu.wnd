@@ -1696,8 +1696,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 575 278,
-                   BOTTOMRIGHT: 732 302,
+      SCREENRECT = UPPERLEFT: 586 364,
+                   BOTTOMRIGHT: 766 400,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyGameOptionsMenu.wnd:ButtonSelectMap";
       STATUS = ENABLED+IMAGE+NOFOCUS;
@@ -1745,8 +1745,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = STATICTEXT;
-      SCREENRECT = UPPERLEFT: 575 247,
-                   BOTTOMRIGHT: 732 275,
+      SCREENRECT = UPPERLEFT: 586 307,
+                   BOTTOMRIGHT: 766 361,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyGameOptionsMenu.wnd:TextEntryMapDisplay";
       STATUS = ENABLED;
@@ -1794,8 +1794,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 595 112,
-                   BOTTOMRIGHT: 712 242,
+      SCREENRECT = UPPERLEFT: 587 112,
+                   BOTTOMRIGHT: 766 304,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyGameOptionsMenu.wnd:MapWindow";
       STATUS = ENABLED;
@@ -1840,8 +1840,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 608 116,
-                     BOTTOMRIGHT: 621 133,
+        SCREENRECT = UPPERLEFT: 592 116,
+                     BOTTOMRIGHT: 605 133,
                      CREATIONRESOLUTION: 800 600;
         NAME = "GameSpyGameOptionsMenu.wnd:ButtonMapStartPosition0";
         STATUS = ENABLED+IMAGE+RIGHT_CLICK;
@@ -1887,8 +1887,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 607 135,
-                     BOTTOMRIGHT: 620 152,
+        SCREENRECT = UPPERLEFT: 592 139,
+                     BOTTOMRIGHT: 605 156,
                      CREATIONRESOLUTION: 800 600;
         NAME = "GameSpyGameOptionsMenu.wnd:ButtonMapStartPosition1";
         STATUS = ENABLED+IMAGE+RIGHT_CLICK;
@@ -1934,8 +1934,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 615 143,
-                     BOTTOMRIGHT: 628 160,
+        SCREENRECT = UPPERLEFT: 592 163,
+                     BOTTOMRIGHT: 605 180,
                      CREATIONRESOLUTION: 800 600;
         NAME = "GameSpyGameOptionsMenu.wnd:ButtonMapStartPosition2";
         STATUS = ENABLED+IMAGE+RIGHT_CLICK;
@@ -1981,8 +1981,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 623 151,
-                     BOTTOMRIGHT: 636 168,
+        SCREENRECT = UPPERLEFT: 592 187,
+                     BOTTOMRIGHT: 605 204,
                      CREATIONRESOLUTION: 800 600;
         NAME = "GameSpyGameOptionsMenu.wnd:ButtonMapStartPosition3";
         STATUS = ENABLED+IMAGE+RIGHT_CLICK;
@@ -2028,8 +2028,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 631 159,
-                     BOTTOMRIGHT: 644 176,
+        SCREENRECT = UPPERLEFT: 592 210,
+                     BOTTOMRIGHT: 605 227,
                      CREATIONRESOLUTION: 800 600;
         NAME = "GameSpyGameOptionsMenu.wnd:ButtonMapStartPosition4";
         STATUS = ENABLED+IMAGE+RIGHT_CLICK;
@@ -2075,8 +2075,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 639 167,
-                     BOTTOMRIGHT: 652 184,
+        SCREENRECT = UPPERLEFT: 592 234,
+                     BOTTOMRIGHT: 605 251,
                      CREATIONRESOLUTION: 800 600;
         NAME = "GameSpyGameOptionsMenu.wnd:ButtonMapStartPosition5";
         STATUS = ENABLED+IMAGE+RIGHT_CLICK;
@@ -2122,8 +2122,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 647 175,
-                     BOTTOMRIGHT: 660 192,
+        SCREENRECT = UPPERLEFT: 592 258,
+                     BOTTOMRIGHT: 605 275,
                      CREATIONRESOLUTION: 800 600;
         NAME = "GameSpyGameOptionsMenu.wnd:ButtonMapStartPosition6";
         STATUS = ENABLED+IMAGE+RIGHT_CLICK;
@@ -2169,8 +2169,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 655 183,
-                     BOTTOMRIGHT: 668 200,
+        SCREENRECT = UPPERLEFT: 592 282,
+                     BOTTOMRIGHT: 605 299,
                      CREATIONRESOLUTION: 800 600;
         NAME = "GameSpyGameOptionsMenu.wnd:ButtonMapStartPosition7";
         STATUS = ENABLED+IMAGE+RIGHT_CLICK;
@@ -2218,8 +2218,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = STATICTEXT;
-      SCREENRECT = UPPERLEFT: 575 83,
-                   BOTTOMRIGHT: 732 107,
+      SCREENRECT = UPPERLEFT: 586 83,
+                   BOTTOMRIGHT: 766 108,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyGameOptionsMenu.wnd:StaticTextMapPreview";
       STATUS = ENABLED+NOINPUT+NOFOCUS;
