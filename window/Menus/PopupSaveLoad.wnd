@@ -52,8 +52,8 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = USER;
-    SCREENRECT = UPPERLEFT: 147 460,
-                 BOTTOMRIGHT: 675 513,
+    SCREENRECT = UPPERLEFT: 549 368,
+                 BOTTOMRIGHT: 679 521,
                  CREATIONRESOLUTION: 800 600;
     NAME = "PopupSaveLoad.wnd:MenuButtonFrame";
     STATUS = ENABLED;
@@ -98,8 +98,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 547 476,
-                   BOTTOMRIGHT: 659 508,
+      SCREENRECT = UPPERLEFT: 549 485,
+                   BOTTOMRIGHT: 679 521,
                    CREATIONRESOLUTION: 800 600;
       NAME = "PopupSaveLoad.wnd:ButtonBack";
       STATUS = ENABLED+IMAGE;
@@ -146,8 +146,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 291 476,
-                   BOTTOMRIGHT: 408 508,
+      SCREENRECT = UPPERLEFT: 549 368,
+                   BOTTOMRIGHT: 679 404,
                    CREATIONRESOLUTION: 800 600;
       NAME = "PopupSaveLoad.wnd:ButtonLoad";
       STATUS = ENABLED+IMAGE;
@@ -194,8 +194,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 154 476,
-                   BOTTOMRIGHT: 280 508,
+      SCREENRECT = UPPERLEFT: 549 407,
+                   BOTTOMRIGHT: 679 443,
                    CREATIONRESOLUTION: 800 600;
       NAME = "PopupSaveLoad.wnd:ButtonSave";
       STATUS = ENABLED+IMAGE;
@@ -242,8 +242,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 419 476,
-                   BOTTOMRIGHT: 531 508,
+      SCREENRECT = UPPERLEFT: 549 446,
+                   BOTTOMRIGHT: 679 482,
                    CREATIONRESOLUTION: 800 600;
       NAME = "PopupSaveLoad.wnd:ButtonDelete";
       STATUS = ENABLED+IMAGE;
@@ -388,8 +388,8 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = SCROLLLISTBOX;
-    SCREENRECT = UPPERLEFT: 148 108,
-                 BOTTOMRIGHT: 676 456,
+    SCREENRECT = UPPERLEFT: 122 100,
+                 BOTTOMRIGHT: 546 521,
                  CREATIONRESOLUTION: 800 600;
     NAME = "PopupSaveLoad.wnd:ListboxGames";
     STATUS = ENABLED;
