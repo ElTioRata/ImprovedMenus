@@ -798,8 +798,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 575 278,
-                   BOTTOMRIGHT: 732 302,
+      SCREENRECT = UPPERLEFT: 586 364,
+                   BOTTOMRIGHT: 766 400,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanGameOptionsMenu.wnd:ButtonSelectMap";
       STATUS = ENABLED+IMAGE+NOFOCUS;
@@ -846,8 +846,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = STATICTEXT;
-      SCREENRECT = UPPERLEFT: 575 247,
-                   BOTTOMRIGHT: 732 275,
+      SCREENRECT = UPPERLEFT: 586 306,
+                   BOTTOMRIGHT: 766 361,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanGameOptionsMenu.wnd:TextEntryMapDisplay";
       STATUS = ENABLED;
@@ -895,8 +895,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = STATICTEXT;
-      SCREENRECT = UPPERLEFT: 575 86,
-                   BOTTOMRIGHT: 732 110,
+      SCREENRECT = UPPERLEFT: 586 83,
+                   BOTTOMRIGHT: 766 107,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanGameOptionsMenu.wnd:StaticTextMapPreview";
       STATUS = ENABLED+NOINPUT+NOFOCUS;
@@ -945,8 +945,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 595 112,
-                   BOTTOMRIGHT: 712 242,
+      SCREENRECT = UPPERLEFT: 587 111,
+                   BOTTOMRIGHT: 766 303,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanGameOptionsMenu.wnd:MapWindow";
       STATUS = ENABLED;
@@ -991,8 +991,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 608 116,
-                     BOTTOMRIGHT: 621 133,
+        SCREENRECT = UPPERLEFT: 591 116,
+                     BOTTOMRIGHT: 604 133,
                      CREATIONRESOLUTION: 800 600;
         NAME = "LanGameOptionsMenu.wnd:ButtonMapStartPosition0";
         STATUS = ENABLED+IMAGE+RIGHT_CLICK;
@@ -1038,8 +1038,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 607 135,
-                     BOTTOMRIGHT: 620 152,
+        SCREENRECT = UPPERLEFT: 591 139,
+                     BOTTOMRIGHT: 604 156,
                      CREATIONRESOLUTION: 800 600;
         NAME = "LanGameOptionsMenu.wnd:ButtonMapStartPosition1";
         STATUS = ENABLED+IMAGE+RIGHT_CLICK;
@@ -1085,8 +1085,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 615 143,
-                     BOTTOMRIGHT: 628 160,
+        SCREENRECT = UPPERLEFT: 591 163,
+                     BOTTOMRIGHT: 604 180,
                      CREATIONRESOLUTION: 800 600;
         NAME = "LanGameOptionsMenu.wnd:ButtonMapStartPosition2";
         STATUS = ENABLED+IMAGE+RIGHT_CLICK;
@@ -1132,8 +1132,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 623 151,
-                     BOTTOMRIGHT: 636 168,
+        SCREENRECT = UPPERLEFT: 591 186,
+                     BOTTOMRIGHT: 604 203,
                      CREATIONRESOLUTION: 800 600;
         NAME = "LanGameOptionsMenu.wnd:ButtonMapStartPosition3";
         STATUS = ENABLED+IMAGE+RIGHT_CLICK;
@@ -1179,8 +1179,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 631 159,
-                     BOTTOMRIGHT: 644 176,
+        SCREENRECT = UPPERLEFT: 591 210,
+                     BOTTOMRIGHT: 604 227,
                      CREATIONRESOLUTION: 800 600;
         NAME = "LanGameOptionsMenu.wnd:ButtonMapStartPosition4";
         STATUS = ENABLED+IMAGE+RIGHT_CLICK;
@@ -1226,8 +1226,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 639 167,
-                     BOTTOMRIGHT: 652 184,
+        SCREENRECT = UPPERLEFT: 591 233,
+                     BOTTOMRIGHT: 604 250,
                      CREATIONRESOLUTION: 800 600;
         NAME = "LanGameOptionsMenu.wnd:ButtonMapStartPosition5";
         STATUS = ENABLED+IMAGE+RIGHT_CLICK;
@@ -1273,8 +1273,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 647 175,
-                     BOTTOMRIGHT: 660 192,
+        SCREENRECT = UPPERLEFT: 591 257,
+                     BOTTOMRIGHT: 604 274,
                      CREATIONRESOLUTION: 800 600;
         NAME = "LanGameOptionsMenu.wnd:ButtonMapStartPosition6";
         STATUS = ENABLED+IMAGE+RIGHT_CLICK;
@@ -1320,8 +1320,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 655 183,
-                     BOTTOMRIGHT: 668 200,
+        SCREENRECT = UPPERLEFT: 591 280,
+                     BOTTOMRIGHT: 604 297,
                      CREATIONRESOLUTION: 800 600;
         NAME = "LanGameOptionsMenu.wnd:ButtonMapStartPosition7";
         STATUS = ENABLED+IMAGE+RIGHT_CLICK;
