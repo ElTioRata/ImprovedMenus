@@ -193,7 +193,7 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = ENTRYFIELD;
-      SCREENRECT = UPPERLEFT: 35 520,
+      SCREENRECT = UPPERLEFT: 215 520,
                    BOTTOMRIGHT: 550 556,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanGameOptionsMenu.wnd:TextEntryChat";
@@ -246,7 +246,7 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = SCROLLLISTBOX;
-      SCREENRECT = UPPERLEFT: 35 403,
+      SCREENRECT = UPPERLEFT: 215 335,
                    BOTTOMRIGHT: 583 517,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanGameOptionsMenu.wnd:ListboxChatWindowLanGame";
@@ -409,7 +409,7 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = CHECKBOX;
-      SCREENRECT = UPPERLEFT: 35 371,
+      SCREENRECT = UPPERLEFT: 35 370,
                    BOTTOMRIGHT: 212 395,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanGameOptionsMenu.wnd:CheckboxLimitSuperweapons";
@@ -458,8 +458,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = STATICTEXT;
-      SCREENRECT = UPPERLEFT: 35 339,
-                   BOTTOMRIGHT: 120 363,
+      SCREENRECT = UPPERLEFT: 35 335,
+                   BOTTOMRIGHT: 120 360,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanGameOptionsMenu.wnd:StaticTextStaticText";
       STATUS = ENABLED+IMAGE;
@@ -508,8 +508,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = COMBOBOX;
-      SCREENRECT = UPPERLEFT: 123 339,
-                   BOTTOMRIGHT: 212 363,
+      SCREENRECT = UPPERLEFT: 123 335,
+                   BOTTOMRIGHT: 212 360,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanGameOptionsMenu.wnd:ComboBoxStartingCash";
       STATUS = ENABLED+IMAGE;
