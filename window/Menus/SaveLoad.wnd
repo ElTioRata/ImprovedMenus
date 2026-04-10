@@ -341,7 +341,7 @@ WINDOW
       SCREENRECT = UPPERLEFT: 31 43,
                    BOTTOMRIGHT: 770 79,
                    CREATIONRESOLUTION: 800 600;
-      NAME = "SaveLoad.wnd:SelectAGameTitle";
+      NAME = "SaveLoad.wnd:StaticTextSelectGameTitle";
       STATUS = ENABLED;
       STYLE = STATICTEXT+MOUSETRACK;
       SYSTEMCALLBACK = "[None]";
@@ -600,8 +600,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 195 222,
-                   BOTTOMRIGHT: 583 394,
+      SCREENRECT = UPPERLEFT: 586 228,
+                   BOTTOMRIGHT: 766 400,
                    CREATIONRESOLUTION: 800 600;
       NAME = "SaveLoad.wnd:LoadConfirmParent";
       STATUS = ENABLED+HIDDEN;
@@ -646,8 +646,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 259 326,
-                     BOTTOMRIGHT: 383 358,
+        SCREENRECT = UPPERLEFT: 586 325,
+                     BOTTOMRIGHT: 766 361,
                      CREATIONRESOLUTION: 800 600;
         NAME = "SaveLoad.wnd:ButtonLoadConfirm";
         STATUS = ENABLED+IMAGE;
@@ -694,8 +694,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 403 326,
-                     BOTTOMRIGHT: 527 358,
+        SCREENRECT = UPPERLEFT: 586 364,
+                     BOTTOMRIGHT: 766 400,
                      CREATIONRESOLUTION: 800 600;
         NAME = "SaveLoad.wnd:ButtonLoadCancel";
         STATUS = ENABLED+IMAGE;
@@ -742,10 +742,10 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = STATICTEXT;
-        SCREENRECT = UPPERLEFT: 195 222,
-                     BOTTOMRIGHT: 583 310,
+        SCREENRECT = UPPERLEFT: 586 228,
+                     BOTTOMRIGHT: 766 322,
                      CREATIONRESOLUTION: 800 600;
-        NAME = "SaveLoad.wnd:";
+        NAME = "SaveLoad.wnd:StaticTextLoadConfirm";
         STATUS = ENABLED;
         STYLE = STATICTEXT+MOUSETRACK;
         SYSTEMCALLBACK = "[None]";
@@ -793,8 +793,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 195 222,
-                   BOTTOMRIGHT: 583 394,
+      SCREENRECT = UPPERLEFT: 586 228,
+                   BOTTOMRIGHT: 766 400,
                    CREATIONRESOLUTION: 800 600;
       NAME = "SaveLoad.wnd:OverwriteConfirmParent";
       STATUS = ENABLED+HIDDEN;
@@ -839,8 +839,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 259 326,
-                     BOTTOMRIGHT: 383 358,
+        SCREENRECT = UPPERLEFT: 586 325,
+                     BOTTOMRIGHT: 766 361,
                      CREATIONRESOLUTION: 800 600;
         NAME = "SaveLoad.wnd:ButtonOverwriteConfirm";
         STATUS = ENABLED+IMAGE;
@@ -887,8 +887,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 403 326,
-                     BOTTOMRIGHT: 527 358,
+        SCREENRECT = UPPERLEFT: 586 364,
+                     BOTTOMRIGHT: 766 400,
                      CREATIONRESOLUTION: 800 600;
         NAME = "SaveLoad.wnd:ButtonOverwriteCancel";
         STATUS = ENABLED+IMAGE;
@@ -935,10 +935,10 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = STATICTEXT;
-        SCREENRECT = UPPERLEFT: 195 222,
-                     BOTTOMRIGHT: 583 310,
+        SCREENRECT = UPPERLEFT: 586 228,
+                     BOTTOMRIGHT: 766 322,
                      CREATIONRESOLUTION: 800 600;
-        NAME = "SaveLoad.wnd:";
+        NAME = "SaveLoad.wnd:StaticTextStaticText";
         STATUS = ENABLED;
         STYLE = STATICTEXT+MOUSETRACK;
         SYSTEMCALLBACK = "[None]";
@@ -986,8 +986,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 195 222,
-                   BOTTOMRIGHT: 583 394,
+      SCREENRECT = UPPERLEFT: 586 228,
+                   BOTTOMRIGHT: 766 400,
                    CREATIONRESOLUTION: 800 600;
       NAME = "SaveLoad.wnd:SaveDescParent";
       STATUS = ENABLED+HIDDEN;
@@ -1032,8 +1032,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 259 326,
-                     BOTTOMRIGHT: 383 358,
+        SCREENRECT = UPPERLEFT: 586 325,
+                     BOTTOMRIGHT: 766 361,
                      CREATIONRESOLUTION: 800 600;
         NAME = "SaveLoad.wnd:ButtonSaveDescConfirm";
         STATUS = ENABLED+IMAGE;
@@ -1080,8 +1080,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 403 326,
-                     BOTTOMRIGHT: 527 358,
+        SCREENRECT = UPPERLEFT: 586 364,
+                     BOTTOMRIGHT: 766 400,
                      CREATIONRESOLUTION: 800 600;
         NAME = "SaveLoad.wnd:ButtonSaveDescCancel";
         STATUS = ENABLED+IMAGE;
@@ -1128,10 +1128,10 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = STATICTEXT;
-        SCREENRECT = UPPERLEFT: 195 230,
-                     BOTTOMRIGHT: 583 282,
+        SCREENRECT = UPPERLEFT: 586 228,
+                     BOTTOMRIGHT: 766 273,
                      CREATIONRESOLUTION: 800 600;
-        NAME = "SaveLoad.wnd:";
+        NAME = "SaveLoad.wnd:StaticTextStaticText";
         STATUS = ENABLED;
         STYLE = STATICTEXT+MOUSETRACK;
         SYSTEMCALLBACK = "[None]";
@@ -1177,8 +1177,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = ENTRYFIELD;
-        SCREENRECT = UPPERLEFT: 207 282,
-                     BOTTOMRIGHT: 571 314,
+        SCREENRECT = UPPERLEFT: 586 276,
+                     BOTTOMRIGHT: 766 322,
                      CREATIONRESOLUTION: 800 600;
         NAME = "SaveLoad.wnd:EntryDesc";
         STATUS = ENABLED+IMAGE;
@@ -1232,8 +1232,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 195 222,
-                   BOTTOMRIGHT: 583 394,
+      SCREENRECT = UPPERLEFT: 586 228,
+                   BOTTOMRIGHT: 766 400,
                    CREATIONRESOLUTION: 800 600;
       NAME = "SaveLoad.wnd:DeleteConfirmParent";
       STATUS = ENABLED+HIDDEN;
@@ -1278,8 +1278,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 259 326,
-                     BOTTOMRIGHT: 383 358,
+        SCREENRECT = UPPERLEFT: 586 325,
+                     BOTTOMRIGHT: 766 361,
                      CREATIONRESOLUTION: 800 600;
         NAME = "SaveLoad.wnd:ButtonDeleteConfirm";
         STATUS = ENABLED+IMAGE;
@@ -1326,8 +1326,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 403 326,
-                     BOTTOMRIGHT: 527 358,
+        SCREENRECT = UPPERLEFT: 586 364,
+                     BOTTOMRIGHT: 766 400,
                      CREATIONRESOLUTION: 800 600;
         NAME = "SaveLoad.wnd:ButtonDeleteCancel";
         STATUS = ENABLED+IMAGE;
@@ -1374,10 +1374,10 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = STATICTEXT;
-        SCREENRECT = UPPERLEFT: 195 222,
-                     BOTTOMRIGHT: 583 310,
+        SCREENRECT = UPPERLEFT: 586 228,
+                     BOTTOMRIGHT: 766 322,
                      CREATIONRESOLUTION: 800 600;
-        NAME = "SaveLoad.wnd:";
+        NAME = "SaveLoad.wnd:StaticTextConfirmDelete";
         STATUS = ENABLED;
         STYLE = STATICTEXT+MOUSETRACK;
         SYSTEMCALLBACK = "[None]";
