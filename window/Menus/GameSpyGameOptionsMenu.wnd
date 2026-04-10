@@ -145,8 +145,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = CHECKBOX;
-      SCREENRECT = UPPERLEFT: 604 313,
-                   BOTTOMRIGHT: 732 337,
+      SCREENRECT = UPPERLEFT: 35 439,
+                   BOTTOMRIGHT: 212 464,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyGameOptionsMenu.wnd:CheckBoxLimitArmies";
       STATUS = ENABLED+IMAGE;
@@ -194,8 +194,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = CHECKBOX;
-      SCREENRECT = UPPERLEFT: 469 313,
-                   BOTTOMRIGHT: 598 337,
+      SCREENRECT = UPPERLEFT: 35 404,
+                   BOTTOMRIGHT: 212 429,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyGameOptionsMenu.wnd:CheckBoxUseStats";
       STATUS = ENABLED+IMAGE+BORDER;
@@ -243,8 +243,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = STATICTEXT;
-      SCREENRECT = UPPERLEFT: 237 313,
-                   BOTTOMRIGHT: 322 337,
+      SCREENRECT = UPPERLEFT: 35 335,
+                   BOTTOMRIGHT: 112 360,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyGameOptionsMenu.wnd:StartingCashLabel";
       STATUS = ENABLED+IMAGE;
@@ -288,13 +288,13 @@ WINDOW
                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
-      STATICTEXTDATA = CENTERED: 1;
+      STATICTEXTDATA = CENTERED: 0;
     END
     CHILD
     WINDOW
       WINDOWTYPE = CHECKBOX;
-      SCREENRECT = UPPERLEFT: 69 313,
-                   BOTTOMRIGHT: 221 337,
+      SCREENRECT = UPPERLEFT: 35 370,
+                   BOTTOMRIGHT: 212 394,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyGameOptionsMenu.wnd:CheckboxLimitSuperweapons";
       STATUS = ENABLED+IMAGE;
@@ -390,7 +390,7 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = ENTRYFIELD;
-      SCREENRECT = UPPERLEFT: 35 520,
+      SCREENRECT = UPPERLEFT: 215 520,
                    BOTTOMRIGHT: 550 556,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyGameOptionsMenu.wnd:TextEntryChat";
@@ -539,7 +539,7 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = SCROLLLISTBOX;
-      SCREENRECT = UPPERLEFT: 35 403,
+      SCREENRECT = UPPERLEFT: 215 335,
                    BOTTOMRIGHT: 583 517,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyGameOptionsMenu.wnd:ListboxChatWindowGameSpyGameSetup";
@@ -702,8 +702,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = COMBOBOX;
-      SCREENRECT = UPPERLEFT: 323 313,
-                   BOTTOMRIGHT: 427 337,
+      SCREENRECT = UPPERLEFT: 115 335,
+                   BOTTOMRIGHT: 212 360,
                    CREATIONRESOLUTION: 800 600;
       NAME = "GameSpyGameOptionsMenu.wnd:ComboBoxStartingCash";
       STATUS = ENABLED+IMAGE;
