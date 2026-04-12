@@ -6,8 +6,8 @@ STARTLAYOUTBLOCK
 ENDLAYOUTBLOCK
 WINDOW
   WINDOWTYPE = USER;
-  SCREENRECT = UPPERLEFT: 288 128,
-               BOTTOMRIGHT: 520 308,
+  SCREENRECT = UPPERLEFT: 403 74,
+               BOTTOMRIGHT: 583 373,
                CREATIONRESOLUTION: 800 600;
   NAME = "GameInfoWindow.wnd:ParentGameInfo";
   STATUS = ENABLED;
@@ -22,7 +22,7 @@ WINDOW
   TEXTCOLOR = ENABLED:  255 255 255 0, ENABLEDBORDER:  255 255 255 0,
               DISABLED: 255 255 255 0, DISABLEDBORDER: 255 255 255 0,
               HILITE:   255 255 255 0, HILITEBORDER:   255 255 255 0;
-   ENABLEDDRAWDATA = IMAGE: BlackSquare, COLOR: 0 0 0 128, BORDERCOLOR: 49 55 167 255,
+  ENABLEDDRAWDATA = IMAGE: BlackSquare, COLOR: 0 0 0 0, BORDERCOLOR: 49 55 167 0,
                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
@@ -31,7 +31,7 @@ WINDOW
                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
-  DISABLEDDRAWDATA = IMAGE: NoImage, COLOR: 64 64 64 255, BORDERCOLOR: 254 254 254 255,
+  DISABLEDDRAWDATA = IMAGE: NoImage, COLOR: 64 64 64 255, BORDERCOLOR: 254 254 254 0,
                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
@@ -40,7 +40,7 @@ WINDOW
                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
-  HILITEDRAWDATA = IMAGE: NoImage, COLOR: 128 128 255 255, BORDERCOLOR: 254 254 254 255,
+  HILITEDRAWDATA = IMAGE: NoImage, COLOR: 128 128 255 0, BORDERCOLOR: 254 254 254 0,
                    IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                    IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                    IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
@@ -52,8 +52,8 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = SCROLLLISTBOX;
-    SCREENRECT = UPPERLEFT: 292 196,
-                 BOTTOMRIGHT: 516 304,
+    SCREENRECT = UPPERLEFT: 403 224,
+                 BOTTOMRIGHT: 583 373,
                  CREATIONRESOLUTION: 800 600;
     NAME = "GameInfoWindow.wnd:ListBoxPlayers";
     STATUS = ENABLED;
@@ -69,8 +69,8 @@ WINDOW
     TEXTCOLOR = ENABLED:  254 254 254 255, ENABLEDBORDER:  0 0 0 255,
                 DISABLED: 192 192 192 255, DISABLEDBORDER: 64 64 64 255,
                 HILITE:   128 128 255 255, HILITEBORDER:   0 0 128 255;
-    ENABLEDDRAWDATA = IMAGE: BlackSquare, COLOR: 0 0 0 126, BORDERCOLOR: 49 55 168 255,
-                      IMAGE: ListBoxHiliteItemLeftEnd, COLOR: 255 255 0 255, BORDERCOLOR: 254 254 254 255,
+    ENABLEDDRAWDATA = IMAGE: BlackSquare, COLOR: 0 0 0 0, BORDERCOLOR: 49 55 168 0,
+                      IMAGE: ListBoxHiliteItemLeftEnd, COLOR: 255 255 0 255, BORDERCOLOR: 254 254 254 0,
                       IMAGE: ListBoxHiliteItemRightEnd, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                       IMAGE: ListBoxHiliteItemRepeatingCenter, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                       IMAGE: ListBoxHiliteItemSmallRepeatingCenter, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
@@ -78,8 +78,8 @@ WINDOW
                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
-    DISABLEDDRAWDATA = IMAGE: BlackSquare, COLOR: 0 0 0 126, BORDERCOLOR: 49 55 168 255,
-                       IMAGE: NoImage, COLOR: 192 192 192 255, BORDERCOLOR: 254 254 254 255,
+    DISABLEDDRAWDATA = IMAGE: BlackSquare, COLOR: 0 0 0 0, BORDERCOLOR: 49 55 168 0,
+                       IMAGE: NoImage, COLOR: 192 192 192 255, BORDERCOLOR: 254 254 254 0,
                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
@@ -87,8 +87,8 @@ WINDOW
                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
-    HILITEDRAWDATA = IMAGE: BlackSquare, COLOR: 0 0 0 126, BORDERCOLOR: 49 55 168 255,
-                     IMAGE: ListBoxHiliteSelectedItemLeftEnd, COLOR: 254 254 254 255, BORDERCOLOR: 0 128 0 255,
+    HILITEDRAWDATA = IMAGE: BlackSquare, COLOR: 0 0 0 0, BORDERCOLOR: 49 55 168 0,
+                     IMAGE: ListBoxHiliteSelectedItemLeftEnd, COLOR: 254 254 254 255, BORDERCOLOR: 0 128 0 0,
                      IMAGE: ListBoxHiliteSelectedItemRightEnd, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                      IMAGE: ListBoxHiliteSelectedItemRepeatingCenter, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                      IMAGE: ListBoxHiliteSelectedItemSmallRepeatingCenter, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
@@ -99,7 +99,7 @@ WINDOW
     LISTBOXDATA = LENGTH: 9,
                   AUTOSCROLL: 0,
                   AUTOPURGE: 0,
-                  SCROLLBAR: 1,
+                  SCROLLBAR: 0,
                   MULTISELECT: 0,
                   COLUMNS: 2,
                   COLUMNSWIDTH: 15,
@@ -217,10 +217,10 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = STATICTEXT;
-    SCREENRECT = UPPERLEFT: 292 132,
-                 BOTTOMRIGHT: 360 152,
+    SCREENRECT = UPPERLEFT: 403 74,
+                 BOTTOMRIGHT: 583 94,
                  CREATIONRESOLUTION: 800 600;
-    NAME = "GameInfoWindow.wnd:";
+    NAME = "GameInfoWindow.wnd:StaticTextGameNameTitle";
     STATUS = ENABLED;
     STYLE = STATICTEXT+MOUSETRACK;
     SYSTEMCALLBACK = "[None]";
@@ -228,7 +228,7 @@ WINDOW
     TOOLTIPCALLBACK = "[None]";
     DRAWCALLBACK = "[None]";
     FONT = NAME: "Arial", SIZE: 10, BOLD: 0;
-    HEADERTEMPLATE = "LabelRegular";
+    HEADERTEMPLATE = "MinorTitle";
     TOOLTIPDELAY = -1;
     TEXT = "GUI:GameName:";
     TEXTCOLOR = ENABLED:  255 255 255 255, ENABLEDBORDER:  0 0 0 255,
@@ -266,10 +266,10 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = STATICTEXT;
-    SCREENRECT = UPPERLEFT: 292 176,
-                 BOTTOMRIGHT: 406 196,
+    SCREENRECT = UPPERLEFT: 403 201,
+                 BOTTOMRIGHT: 583 221,
                  CREATIONRESOLUTION: 800 600;
-    NAME = "GameInfoWindow.wnd:";
+    NAME = "GameInfoWindow.wnd:StaticTextPlayersTitle";
     STATUS = ENABLED;
     STYLE = STATICTEXT+MOUSETRACK;
     SYSTEMCALLBACK = "[None]";
@@ -277,7 +277,7 @@ WINDOW
     TOOLTIPCALLBACK = "[None]";
     DRAWCALLBACK = "[None]";
     FONT = NAME: "Arial", SIZE: 10, BOLD: 0;
-    HEADERTEMPLATE = "LabelRegular";
+    HEADERTEMPLATE = "MinorTitle";
     TOOLTIPDELAY = -1;
     TEXT = "GUI:Players:";
     TEXTCOLOR = ENABLED:  255 255 255 255, ENABLEDBORDER:  0 0 0 255,
@@ -315,10 +315,10 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = STATICTEXT;
-    SCREENRECT = UPPERLEFT: 292 152,
-                 BOTTOMRIGHT: 360 180,
+    SCREENRECT = UPPERLEFT: 403 120,
+                 BOTTOMRIGHT: 583 140,
                  CREATIONRESOLUTION: 800 600;
-    NAME = "GameInfoWindow.wnd:";
+    NAME = "GameInfoWindow.wnd:StaticTextMapNameTitle";
     STATUS = ENABLED;
     STYLE = STATICTEXT+MOUSETRACK;
     SYSTEMCALLBACK = "[None]";
@@ -326,7 +326,7 @@ WINDOW
     TOOLTIPCALLBACK = "[None]";
     DRAWCALLBACK = "[None]";
     FONT = NAME: "Arial", SIZE: 10, BOLD: 0;
-    HEADERTEMPLATE = "LabelRegular";
+    HEADERTEMPLATE = "MinorTitle";
     TOOLTIPDELAY = -1;
     TEXT = "GUI:MapName:";
     TEXTCOLOR = ENABLED:  255 255 255 255, ENABLEDBORDER:  0 0 0 255,
@@ -364,8 +364,8 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = STATICTEXT;
-    SCREENRECT = UPPERLEFT: 360 152,
-                 BOTTOMRIGHT: 516 180,
+    SCREENRECT = UPPERLEFT: 403 143,
+                 BOTTOMRIGHT: 583 198,
                  CREATIONRESOLUTION: 800 600;
     NAME = "GameInfoWindow.wnd:StaticTextMapName";
     STATUS = ENABLED;
@@ -414,8 +414,8 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = STATICTEXT;
-    SCREENRECT = UPPERLEFT: 360 132,
-                 BOTTOMRIGHT: 516 152,
+    SCREENRECT = UPPERLEFT: 403 97,
+                 BOTTOMRIGHT: 583 117,
                  CREATIONRESOLUTION: 800 600;
     NAME = "GameInfoWindow.wnd:StaticTextGameName";
     STATUS = ENABLED;
