@@ -254,7 +254,7 @@ WINDOW
                  BOTTOMRIGHT: 763 198,
                  CREATIONRESOLUTION: 800 600;
     NAME = "PopupHostGame.wnd:";
-    STATUS = ENABLED;
+    STATUS = ENABLED+HIDDEN;
     STYLE = STATICTEXT+MOUSETRACK;
     SYSTEMCALLBACK = "[None]";
     INPUTCALLBACK = "[None]";
@@ -303,7 +303,7 @@ WINDOW
                  BOTTOMRIGHT: 763 230,
                  CREATIONRESOLUTION: 800 600;
     NAME = "PopupHostGame.wnd:TextEntryGameDescription";
-    STATUS = ENABLED+IMAGE;
+    STATUS = ENABLED+HIDDEN+IMAGE;
     STYLE = ENTRYFIELD+MOUSETRACK;
     SYSTEMCALLBACK = "[None]";
     INPUTCALLBACK = "[None]";
