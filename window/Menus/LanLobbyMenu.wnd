@@ -1140,7 +1140,7 @@ WINDOW
       TOOLTIPCALLBACK = "[None]";
       DRAWCALLBACK = "[None]";
       FONT = NAME: "Placard MT Condensed", SIZE: 16, BOLD: 0;
-      HEADERTEMPLATE = "MainButton";
+      HEADERTEMPLATE = "ButtonSmall";
       TOOLTIPTEXT = "TOOLTIP:ButtonClear";
       TOOLTIPDELAY = -1;
       TEXT = "GUI:CLEAR";
