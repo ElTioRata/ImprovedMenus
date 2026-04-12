@@ -98,10 +98,10 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = STATICTEXT;
-      SCREENRECT = UPPERLEFT: 403 499,
-                   BOTTOMRIGHT: 583 531,
+      SCREENRECT = UPPERLEFT: 403 481,
+                   BOTTOMRIGHT: 583 517,
                    CREATIONRESOLUTION: 800 600;
-      NAME = "LanLobbyMenu.wnd:";
+      NAME = "LanLobbyMenu.wnd:StaticTextPlayerNameTitle";
       STATUS = ENABLED+NOINPUT+NOFOCUS;
       STYLE = STATICTEXT+MOUSETRACK;
       SYSTEMCALLBACK = "[None]";
@@ -339,8 +339,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = ENTRYFIELD;
-      SCREENRECT = UPPERLEFT: 403 531,
-                   BOTTOMRIGHT: 507 556,
+      SCREENRECT = UPPERLEFT: 403 520,
+                   BOTTOMRIGHT: 520 556,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanLobbyMenu.wnd:TextEntryPlayerName";
       STATUS = ENABLED+IMAGE;
@@ -350,7 +350,7 @@ WINDOW
       TOOLTIPCALLBACK = "[None]";
       DRAWCALLBACK = "[None]";
       FONT = NAME: "Arial", SIZE: 10, BOLD: 0;
-      HEADERTEMPLATE = "TextEntry";
+      HEADERTEMPLATE = "MinorTitle";
       TOOLTIPDELAY = -1;
       TEXT = "Entry";
       TEXTCOLOR = ENABLED:  254 254 254 255, ENABLEDBORDER:  0 0 0 255,
@@ -555,10 +555,10 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = STATICTEXT;
-      SCREENRECT = UPPERLEFT: 586 42,
+      SCREENRECT = UPPERLEFT: 586 46,
                    BOTTOMRIGHT: 766 74,
                    CREATIONRESOLUTION: 800 600;
-      NAME = "LanLobbyMenu.wnd:";
+      NAME = "LanLobbyMenu.wnd:StaticTextPlayersTitle";
       STATUS = ENABLED+NOINPUT+NOFOCUS;
       STYLE = STATICTEXT+MOUSETRACK;
       SYSTEMCALLBACK = "[None]";
@@ -604,10 +604,10 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = STATICTEXT;
-      SCREENRECT = UPPERLEFT: 35 42,
+      SCREENRECT = UPPERLEFT: 35 46,
                    BOTTOMRIGHT: 400 74,
                    CREATIONRESOLUTION: 800 600;
-      NAME = "LanLobbyMenu.wnd:";
+      NAME = "LanLobbyMenu.wnd:StaticTextGamesTitle";
       STATUS = ENABLED+NOINPUT+NOFOCUS;
       STYLE = STATICTEXT+MOUSETRACK;
       SYSTEMCALLBACK = "[None]";
@@ -817,7 +817,7 @@ WINDOW
     WINDOW
       WINDOWTYPE = STATICTEXT;
       SCREENRECT = UPPERLEFT: 403 74,
-                   BOTTOMRIGHT: 583 500,
+                   BOTTOMRIGHT: 583 373,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanLobbyMenu.wnd:StaticTextGameInfo";
       STATUS = ENABLED+NOINPUT+NOFOCUS;
@@ -864,10 +864,10 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = STATICTEXT;
-      SCREENRECT = UPPERLEFT: 403 42,
+      SCREENRECT = UPPERLEFT: 403 46,
                    BOTTOMRIGHT: 583 74,
                    CREATIONRESOLUTION: 800 600;
-      NAME = "LanLobbyMenu.wnd:";
+      NAME = "LanLobbyMenu.wnd:StaticTextGameInfoTitle";
       STATUS = ENABLED+NOINPUT+NOFOCUS;
       STYLE = STATICTEXT+MOUSETRACK;
       SYSTEMCALLBACK = "[None]";
@@ -913,7 +913,7 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = SCROLLLISTBOX;
-      SCREENRECT = UPPERLEFT: 586 225,
+      SCREENRECT = UPPERLEFT: 586 224,
                    BOTTOMRIGHT: 766 373,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanLobbyMenu.wnd:ListboxChatWindowLanLobby";
@@ -1129,7 +1129,7 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 510 531,
+      SCREENRECT = UPPERLEFT: 523 520,
                    BOTTOMRIGHT: 583 556,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanLobbyMenu.wnd:ButtonClear";
@@ -1172,53 +1172,6 @@ WINDOW
                        IMAGE: Buttons-Pushed-Right, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                        IMAGE: Buttons-HiLite-Middle, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                        IMAGE: Buttons-HiLite-Right, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
-    END
-    CHILD
-    WINDOW
-      WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 800 520,
-                   BOTTOMRIGHT: 836 544,
-                   CREATIONRESOLUTION: 800 600;
-      NAME = "LanLobbyMenu.wnd:ButtonEmote";
-      STATUS = ENABLED+IMAGE;
-      STYLE = PUSHBUTTON+MOUSETRACK;
-      SYSTEMCALLBACK = "[None]";
-      INPUTCALLBACK = "[None]";
-      TOOLTIPCALLBACK = "[None]";
-      DRAWCALLBACK = "[None]";
-      FONT = NAME: "Arial", SIZE: 10, BOLD: 0;
-      HEADERTEMPLATE = "[NONE]";
-      TOOLTIPDELAY = -1;
-      TEXTCOLOR = ENABLED:  254 254 254 255, ENABLEDBORDER:  0 0 0 255,
-                  DISABLED: 192 192 192 255, DISABLEDBORDER: 64 64 64 255,
-                  HILITE:   128 128 255 255, HILITEBORDER:   0 0 128 255;
-      ENABLEDDRAWDATA = IMAGE: ReturnButton, COLOR: 255 0 0 255, BORDERCOLOR: 255 128 128 255,
-                        IMAGE: ReturnButtonHilitePushed, COLOR: 255 255 0 255, BORDERCOLOR: 254 254 254 255,
-                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
-      DISABLEDDRAWDATA = IMAGE: ReturnButtonDisabled, COLOR: 128 128 128 255, BORDERCOLOR: 192 192 192 255,
-                         IMAGE: NoImage, COLOR: 192 192 192 255, BORDERCOLOR: 128 128 128 255,
-                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
-      HILITEDRAWDATA = IMAGE: ReturnButtonHilite, COLOR: 0 255 0 255, BORDERCOLOR: 0 128 0 255,
-                       IMAGE: ReturnButtonHilitePushed, COLOR: 255 255 0 255, BORDERCOLOR: 254 254 254 255,
-                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
     END
