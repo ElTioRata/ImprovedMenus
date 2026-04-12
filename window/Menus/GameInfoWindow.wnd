@@ -70,7 +70,7 @@ WINDOW
                 DISABLED: 192 192 192 255, DISABLEDBORDER: 64 64 64 255,
                 HILITE:   128 128 255 255, HILITEBORDER:   0 0 128 255;
     ENABLEDDRAWDATA = IMAGE: BlackSquare, COLOR: 0 0 0 0, BORDERCOLOR: 49 55 168 0,
-                      IMAGE: ListBoxHiliteItemLeftEnd, COLOR: 255 255 0 255, BORDERCOLOR: 254 254 254 255,
+                      IMAGE: ListBoxHiliteItemLeftEnd, COLOR: 255 255 255 0, BORDERCOLOR: 254 254 254 255,
                       IMAGE: ListBoxHiliteItemRightEnd, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                       IMAGE: ListBoxHiliteItemRepeatingCenter, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                       IMAGE: ListBoxHiliteItemSmallRepeatingCenter, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
