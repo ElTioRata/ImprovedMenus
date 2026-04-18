@@ -350,7 +350,7 @@ WINDOW
       TOOLTIPCALLBACK = "[None]";
       DRAWCALLBACK = "[None]";
       FONT = NAME: "Arial", SIZE: 10, BOLD: 0;
-      HEADERTEMPLATE = "MinorTitle";
+      HEADERTEMPLATE = "LabelRegular";
       TOOLTIPDELAY = -1;
       TEXT = "Entry";
       TEXTCOLOR = ENABLED:  254 254 254 255, ENABLEDBORDER:  0 0 0 255,
@@ -817,7 +817,7 @@ WINDOW
     WINDOW
       WINDOWTYPE = STATICTEXT;
       SCREENRECT = UPPERLEFT: 403 74,
-                   BOTTOMRIGHT: 583 373,
+                   BOTTOMRIGHT: 583 478,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanLobbyMenu.wnd:StaticTextGameInfo";
       STATUS = ENABLED+NOINPUT+NOFOCUS;
