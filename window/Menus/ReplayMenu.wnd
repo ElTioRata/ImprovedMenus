@@ -52,7 +52,7 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = USER;
-    SCREENRECT = UPPERLEFT: 31 42,
+    SCREENRECT = UPPERLEFT: 31 43,
                  BOTTOMRIGHT: 770 560,
                  CREATIONRESOLUTION: 800 600;
     NAME = "ReplayMenu.wnd:GadgetParent";
@@ -98,8 +98,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 41 86,
-                   BOTTOMRIGHT: 737 444,
+      SCREENRECT = UPPERLEFT: 31 43,
+                   BOTTOMRIGHT: 770 560,
                    CREATIONRESOLUTION: 800 600;
       NAME = "ReplayMenu.wnd:";
       STATUS = ENABLED;
@@ -144,8 +144,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = SCROLLLISTBOX;
-        SCREENRECT = UPPERLEFT: 57 152,
-                     BOTTOMRIGHT: 541 428,
+        SCREENRECT = UPPERLEFT: 35 84,
+                     BOTTOMRIGHT: 583 556,
                      CREATIONRESOLUTION: 800 600;
         NAME = "ReplayMenu.wnd:ListboxReplayFiles";
         STATUS = ENABLED;
@@ -194,10 +194,10 @@ WINDOW
                       SCROLLBAR: 1,
                       MULTISELECT: 0,
                       COLUMNS: 4,
-                      COLUMNSWIDTH: 30,
-                      COLUMNSWIDTH: 20,
-                      COLUMNSWIDTH: 25,
-                      COLUMNSWIDTH: 25,
+                      COLUMNSWIDTH: 40,
+                      COLUMNSWIDTH: 7,
+                      COLUMNSWIDTH: 12,
+                      COLUMNSWIDTH: 41,
                       FORCESELECT: 1;
         LISTBOXENABLEDUPBUTTONDRAWDATA = IMAGE: VSliderUpButtonEnabled, COLOR: 255 0 0 255, BORDERCOLOR: 255 128 128 255,
                                          IMAGE: VSliderUpButtonHiliteSelected, COLOR: 255 255 0 255, BORDERCOLOR: 254 254 254 255,
@@ -311,8 +311,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 552 393,
-                     BOTTOMRIGHT: 724 429,
+        SCREENRECT = UPPERLEFT: 586 520,
+                     BOTTOMRIGHT: 766 556,
                      CREATIONRESOLUTION: 800 600;
         NAME = "ReplayMenu.wnd:ButtonBack";
         STATUS = ENABLED+IMAGE;
@@ -359,8 +359,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 552 249,
-                     BOTTOMRIGHT: 724 285,
+        SCREENRECT = UPPERLEFT: 586 481,
+                     BOTTOMRIGHT: 766 517,
                      CREATIONRESOLUTION: 800 600;
         NAME = "ReplayMenu.wnd:ButtonCopyReplay";
         STATUS = ENABLED+IMAGE;
@@ -407,8 +407,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 552 201,
-                     BOTTOMRIGHT: 724 237,
+        SCREENRECT = UPPERLEFT: 586 442,
+                     BOTTOMRIGHT: 766 478,
                      CREATIONRESOLUTION: 800 600;
         NAME = "ReplayMenu.wnd:ButtonDeleteReplay";
         STATUS = ENABLED+IMAGE;
@@ -455,8 +455,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 552 153,
-                     BOTTOMRIGHT: 724 189,
+        SCREENRECT = UPPERLEFT: 586 403,
+                     BOTTOMRIGHT: 766 439,
                      CREATIONRESOLUTION: 800 600;
         NAME = "ReplayMenu.wnd:ButtonLoadReplay";
         STATUS = ENABLED+IMAGE;
@@ -500,44 +500,37 @@ WINDOW
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
       END
-      CHILD
-      WINDOW
-        WINDOWTYPE = USER;
-        SCREENRECT = UPPERLEFT: 41 134,
-                     BOTTOMRIGHT: 737 135,
-                     CREATIONRESOLUTION: 800 600;
-        NAME = "ReplayMenu.wnd:Line";
-        STATUS = ENABLED;
-        STYLE = USER;
-        SYSTEMCALLBACK = "[None]";
-        INPUTCALLBACK = "[None]";
-        TOOLTIPCALLBACK = "[None]";
-        DRAWCALLBACK = "[None]";
-        FONT = NAME: "Times New Roman", SIZE: 14, BOLD: 0;
-        HEADERTEMPLATE = "[NONE]";
-        TOOLTIPDELAY = -1;
-        TEXTCOLOR = ENABLED:  255 255 255 0, ENABLEDBORDER:  255 255 255 0,
-                    DISABLED: 255 255 255 0, DISABLEDBORDER: 255 255 255 0,
-                    HILITE:   255 255 255 0, HILITEBORDER:   255 255 255 0;
-        ENABLEDDRAWDATA = IMAGE: NoImage, COLOR: 0 0 0 0, BORDERCOLOR: 47 55 168 255,
-                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
-        DISABLEDDRAWDATA = IMAGE: NoImage, COLOR: 0 0 64 255, BORDERCOLOR: 0 0 0 255,
-                           IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                           IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                           IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                           IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                           IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                           IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                           IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                           IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
-        HILITEDRAWDATA = IMAGE: NoImage, COLOR: 0 0 255 255, BORDERCOLOR: 0 0 0 255,
+      ENDALLCHILDREN
+    END
+    CHILD
+    WINDOW
+      WINDOWTYPE = USER;
+      SCREENRECT = UPPERLEFT: 31 79,
+                   BOTTOMRIGHT: 770 80,
+                   CREATIONRESOLUTION: 800 600;
+      NAME = "ReplayMenu.wnd:Line";
+      STATUS = ENABLED;
+      STYLE = USER;
+      SYSTEMCALLBACK = "[None]";
+      INPUTCALLBACK = "[None]";
+      TOOLTIPCALLBACK = "[None]";
+      DRAWCALLBACK = "[None]";
+      FONT = NAME: "Times New Roman", SIZE: 14, BOLD: 0;
+      HEADERTEMPLATE = "[NONE]";
+      TOOLTIPDELAY = -1;
+      TEXTCOLOR = ENABLED:  255 255 255 0, ENABLEDBORDER:  255 255 255 0,
+                  DISABLED: 255 255 255 0, DISABLEDBORDER: 255 255 255 0,
+                  HILITE:   255 255 255 0, HILITEBORDER:   255 255 255 0;
+      ENABLEDDRAWDATA = IMAGE: NoImage, COLOR: 0 0 0 0, BORDERCOLOR: 47 55 168 255,
+                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+      DISABLEDDRAWDATA = IMAGE: NoImage, COLOR: 0 0 64 255, BORDERCOLOR: 0 0 0 255,
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
@@ -546,16 +539,23 @@ WINDOW
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
-      END
-      ENDALLCHILDREN
+      HILITEDRAWDATA = IMAGE: NoImage, COLOR: 0 0 255 255, BORDERCOLOR: 0 0 0 255,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
     END
     CHILD
     WINDOW
       WINDOWTYPE = STATICTEXT;
-      SCREENRECT = UPPERLEFT: 46 88,
-                   BOTTOMRIGHT: 525 132,
+      SCREENRECT = UPPERLEFT: 31 43,
+                   BOTTOMRIGHT: 770 79,
                    CREATIONRESOLUTION: 800 600;
-      NAME = "ReplayMenu.wnd:";
+      NAME = "ReplayMenu.wnd:StatickTextLoadReplayTitle";
       STATUS = ENABLED;
       STYLE = STATICTEXT+MOUSETRACK;
       SYSTEMCALLBACK = "[None]";

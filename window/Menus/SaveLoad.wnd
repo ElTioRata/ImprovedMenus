@@ -52,7 +52,7 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = USER;
-    SCREENRECT = UPPERLEFT: 31 42,
+    SCREENRECT = UPPERLEFT: 31 43,
                  BOTTOMRIGHT: 770 560,
                  CREATIONRESOLUTION: 800 600;
     NAME = "SaveLoad.wnd:SaveLoadMenu";
@@ -98,8 +98,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 47 502,
-                   BOTTOMRIGHT: 723 555,
+      SCREENRECT = UPPERLEFT: 586 403,
+                   BOTTOMRIGHT: 766 556,
                    CREATIONRESOLUTION: 800 600;
       NAME = "SaveLoad.wnd:MenuButtonFrame";
       STATUS = ENABLED;
@@ -144,8 +144,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 567 510,
-                     BOTTOMRIGHT: 723 542,
+        SCREENRECT = UPPERLEFT: 586 520,
+                     BOTTOMRIGHT: 766 556,
                      CREATIONRESOLUTION: 800 600;
         NAME = "SaveLoad.wnd:ButtonBack";
         STATUS = ENABLED+IMAGE;
@@ -192,8 +192,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 223 510,
-                     BOTTOMRIGHT: 379 542,
+        SCREENRECT = UPPERLEFT: 586 403,
+                     BOTTOMRIGHT: 766 439,
                      CREATIONRESOLUTION: 800 600;
         NAME = "SaveLoad.wnd:ButtonLoad";
         STATUS = ENABLED+IMAGE;
@@ -240,8 +240,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 51 510,
-                     BOTTOMRIGHT: 207 542,
+        SCREENRECT = UPPERLEFT: 586 442,
+                     BOTTOMRIGHT: 766 478,
                      CREATIONRESOLUTION: 800 600;
         NAME = "SaveLoad.wnd:ButtonSave";
         STATUS = ENABLED+IMAGE;
@@ -288,8 +288,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 395 510,
-                     BOTTOMRIGHT: 552 542,
+        SCREENRECT = UPPERLEFT: 586 481,
+                     BOTTOMRIGHT: 766 517,
                      CREATIONRESOLUTION: 800 600;
         NAME = "SaveLoad.wnd:ButtonDelete";
         STATUS = ENABLED+IMAGE;
@@ -338,10 +338,10 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = STATICTEXT;
-      SCREENRECT = UPPERLEFT: 45 43,
-                   BOTTOMRIGHT: 397 87,
+      SCREENRECT = UPPERLEFT: 31 43,
+                   BOTTOMRIGHT: 770 79,
                    CREATIONRESOLUTION: 800 600;
-      NAME = "SaveLoad.wnd:";
+      NAME = "SaveLoad.wnd:StaticTextSelectGameTitle";
       STATUS = ENABLED;
       STYLE = STATICTEXT+MOUSETRACK;
       SYSTEMCALLBACK = "[None]";
@@ -386,9 +386,56 @@ WINDOW
     END
     CHILD
     WINDOW
+      WINDOWTYPE = USER;
+      SCREENRECT = UPPERLEFT: 31 78,
+                   BOTTOMRIGHT: 770 79,
+                   CREATIONRESOLUTION: 800 600;
+      NAME = "SaveLoad.wnd:line";
+      STATUS = ENABLED;
+      STYLE = USER;
+      SYSTEMCALLBACK = "[None]";
+      INPUTCALLBACK = "[None]";
+      TOOLTIPCALLBACK = "[None]";
+      DRAWCALLBACK = "[None]";
+      FONT = NAME: "Times New Roman", SIZE: 14, BOLD: 0;
+      HEADERTEMPLATE = "[NONE]";
+      TOOLTIPDELAY = -1;
+      TEXTCOLOR = ENABLED:  255 255 255 0, ENABLEDBORDER:  255 255 255 0,
+                  DISABLED: 255 255 255 0, DISABLEDBORDER: 255 255 255 0,
+                  HILITE:   255 255 255 0, HILITEBORDER:   255 255 255 0;
+      ENABLEDDRAWDATA = IMAGE: NoImage, COLOR: 0 0 0 0, BORDERCOLOR: 47 55 168 255,
+                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+      DISABLEDDRAWDATA = IMAGE: NoImage, COLOR: 0 0 64 255, BORDERCOLOR: 0 0 0 255,
+                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+      HILITEDRAWDATA = IMAGE: NoImage, COLOR: 0 0 255 255, BORDERCOLOR: 0 0 0 255,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+    END
+    CHILD
+    WINDOW
       WINDOWTYPE = SCROLLLISTBOX;
-      SCREENRECT = UPPERLEFT: 51 102,
-                   BOTTOMRIGHT: 723 494,
+      SCREENRECT = UPPERLEFT: 35 84,
+                   BOTTOMRIGHT: 583 556,
                    CREATIONRESOLUTION: 800 600;
       NAME = "SaveLoad.wnd:ListboxGames";
       STATUS = ENABLED;
@@ -437,9 +484,9 @@ WINDOW
                     SCROLLBAR: 1,
                     MULTISELECT: 0,
                     COLUMNS: 3,
-                    COLUMNSWIDTH: 60,
-                    COLUMNSWIDTH: 20,
-                    COLUMNSWIDTH: 20,
+                    COLUMNSWIDTH: 81,
+                    COLUMNSWIDTH: 7,
+                    COLUMNSWIDTH: 12,
                     FORCESELECT: 1;
       LISTBOXENABLEDUPBUTTONDRAWDATA = IMAGE: VSliderUpButtonEnabled, COLOR: 0 0 0 126, BORDERCOLOR: 49 55 168 255,
                                        IMAGE: VSliderUpButtonHiliteSelected, COLOR: 255 255 0 255, BORDERCOLOR: 254 254 254 255,
@@ -553,8 +600,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 195 222,
-                   BOTTOMRIGHT: 583 394,
+      SCREENRECT = UPPERLEFT: 586 224,
+                   BOTTOMRIGHT: 766 400,
                    CREATIONRESOLUTION: 800 600;
       NAME = "SaveLoad.wnd:LoadConfirmParent";
       STATUS = ENABLED+HIDDEN;
@@ -599,8 +646,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 259 326,
-                     BOTTOMRIGHT: 383 358,
+        SCREENRECT = UPPERLEFT: 589 330,
+                     BOTTOMRIGHT: 763 362,
                      CREATIONRESOLUTION: 800 600;
         NAME = "SaveLoad.wnd:ButtonLoadConfirm";
         STATUS = ENABLED+IMAGE;
@@ -610,7 +657,7 @@ WINDOW
         TOOLTIPCALLBACK = "[None]";
         DRAWCALLBACK = "[None]";
         FONT = NAME: "Placard MT Condensed", SIZE: 16, BOLD: 0;
-        HEADERTEMPLATE = "MainButton";
+        HEADERTEMPLATE = "ButtonSmall";
         TOOLTIPDELAY = -1;
         TEXT = "GUI:LoadGame";
         TEXTCOLOR = ENABLED:  255 255 255 255, ENABLEDBORDER:  0 0 0 255,
@@ -647,8 +694,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 403 326,
-                     BOTTOMRIGHT: 527 358,
+        SCREENRECT = UPPERLEFT: 589 365,
+                     BOTTOMRIGHT: 763 397,
                      CREATIONRESOLUTION: 800 600;
         NAME = "SaveLoad.wnd:ButtonLoadCancel";
         STATUS = ENABLED+IMAGE;
@@ -658,7 +705,7 @@ WINDOW
         TOOLTIPCALLBACK = "[None]";
         DRAWCALLBACK = "[None]";
         FONT = NAME: "Placard MT Condensed", SIZE: 16, BOLD: 0;
-        HEADERTEMPLATE = "MainButton";
+        HEADERTEMPLATE = "ButtonSmall";
         TOOLTIPDELAY = -1;
         TEXT = "GUI:Cancel";
         TEXTCOLOR = ENABLED:  255 255 255 255, ENABLEDBORDER:  0 0 0 255,
@@ -695,10 +742,10 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = STATICTEXT;
-        SCREENRECT = UPPERLEFT: 195 222,
-                     BOTTOMRIGHT: 583 310,
+        SCREENRECT = UPPERLEFT: 589 227,
+                     BOTTOMRIGHT: 763 327,
                      CREATIONRESOLUTION: 800 600;
-        NAME = "SaveLoad.wnd:";
+        NAME = "SaveLoad.wnd:StaticTextLoadConfirm";
         STATUS = ENABLED;
         STYLE = STATICTEXT+MOUSETRACK;
         SYSTEMCALLBACK = "[None]";
@@ -746,8 +793,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 195 222,
-                   BOTTOMRIGHT: 583 394,
+      SCREENRECT = UPPERLEFT: 586 224,
+                   BOTTOMRIGHT: 766 400,
                    CREATIONRESOLUTION: 800 600;
       NAME = "SaveLoad.wnd:OverwriteConfirmParent";
       STATUS = ENABLED+HIDDEN;
@@ -792,8 +839,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 259 326,
-                     BOTTOMRIGHT: 383 358,
+        SCREENRECT = UPPERLEFT: 589 330,
+                     BOTTOMRIGHT: 763 362,
                      CREATIONRESOLUTION: 800 600;
         NAME = "SaveLoad.wnd:ButtonOverwriteConfirm";
         STATUS = ENABLED+IMAGE;
@@ -803,7 +850,7 @@ WINDOW
         TOOLTIPCALLBACK = "[None]";
         DRAWCALLBACK = "[None]";
         FONT = NAME: "Placard MT Condensed", SIZE: 16, BOLD: 0;
-        HEADERTEMPLATE = "MainButton";
+        HEADERTEMPLATE = "ButtonSmall";
         TOOLTIPDELAY = -1;
         TEXT = "GUI:SaveGame";
         TEXTCOLOR = ENABLED:  255 255 255 255, ENABLEDBORDER:  0 0 0 255,
@@ -840,8 +887,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 403 326,
-                     BOTTOMRIGHT: 527 358,
+        SCREENRECT = UPPERLEFT: 589 365,
+                     BOTTOMRIGHT: 763 397,
                      CREATIONRESOLUTION: 800 600;
         NAME = "SaveLoad.wnd:ButtonOverwriteCancel";
         STATUS = ENABLED+IMAGE;
@@ -851,7 +898,7 @@ WINDOW
         TOOLTIPCALLBACK = "[None]";
         DRAWCALLBACK = "[None]";
         FONT = NAME: "Placard MT Condensed", SIZE: 16, BOLD: 0;
-        HEADERTEMPLATE = "MainButton";
+        HEADERTEMPLATE = "ButtonSmall";
         TOOLTIPDELAY = -1;
         TEXT = "GUI:Cancel";
         TEXTCOLOR = ENABLED:  255 255 255 255, ENABLEDBORDER:  0 0 0 255,
@@ -888,10 +935,10 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = STATICTEXT;
-        SCREENRECT = UPPERLEFT: 195 222,
-                     BOTTOMRIGHT: 583 310,
+        SCREENRECT = UPPERLEFT: 589 227,
+                     BOTTOMRIGHT: 763 327,
                      CREATIONRESOLUTION: 800 600;
-        NAME = "SaveLoad.wnd:";
+        NAME = "SaveLoad.wnd:StaticTextStaticText";
         STATUS = ENABLED;
         STYLE = STATICTEXT+MOUSETRACK;
         SYSTEMCALLBACK = "[None]";
@@ -939,8 +986,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 195 222,
-                   BOTTOMRIGHT: 583 394,
+      SCREENRECT = UPPERLEFT: 586 224,
+                   BOTTOMRIGHT: 766 400,
                    CREATIONRESOLUTION: 800 600;
       NAME = "SaveLoad.wnd:SaveDescParent";
       STATUS = ENABLED+HIDDEN;
@@ -985,8 +1032,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 259 326,
-                     BOTTOMRIGHT: 383 358,
+        SCREENRECT = UPPERLEFT: 589 330,
+                     BOTTOMRIGHT: 763 362,
                      CREATIONRESOLUTION: 800 600;
         NAME = "SaveLoad.wnd:ButtonSaveDescConfirm";
         STATUS = ENABLED+IMAGE;
@@ -996,7 +1043,7 @@ WINDOW
         TOOLTIPCALLBACK = "[None]";
         DRAWCALLBACK = "[None]";
         FONT = NAME: "Placard MT Condensed", SIZE: 16, BOLD: 0;
-        HEADERTEMPLATE = "MainButton";
+        HEADERTEMPLATE = "ButtonSmall";
         TOOLTIPDELAY = -1;
         TEXT = "GUI:SaveGame";
         TEXTCOLOR = ENABLED:  255 255 255 255, ENABLEDBORDER:  0 0 0 255,
@@ -1033,8 +1080,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 403 326,
-                     BOTTOMRIGHT: 527 358,
+        SCREENRECT = UPPERLEFT: 589 365,
+                     BOTTOMRIGHT: 763 397,
                      CREATIONRESOLUTION: 800 600;
         NAME = "SaveLoad.wnd:ButtonSaveDescCancel";
         STATUS = ENABLED+IMAGE;
@@ -1044,7 +1091,7 @@ WINDOW
         TOOLTIPCALLBACK = "[None]";
         DRAWCALLBACK = "[None]";
         FONT = NAME: "Placard MT Condensed", SIZE: 16, BOLD: 0;
-        HEADERTEMPLATE = "MainButton";
+        HEADERTEMPLATE = "ButtonSmall";
         TOOLTIPDELAY = -1;
         TEXT = "GUI:Cancel";
         TEXTCOLOR = ENABLED:  255 255 255 255, ENABLEDBORDER:  0 0 0 255,
@@ -1081,10 +1128,10 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = STATICTEXT;
-        SCREENRECT = UPPERLEFT: 195 230,
-                     BOTTOMRIGHT: 583 282,
+        SCREENRECT = UPPERLEFT: 589 227,
+                     BOTTOMRIGHT: 763 278,
                      CREATIONRESOLUTION: 800 600;
-        NAME = "SaveLoad.wnd:";
+        NAME = "SaveLoad.wnd:StaticTextStaticText";
         STATUS = ENABLED;
         STYLE = STATICTEXT+MOUSETRACK;
         SYSTEMCALLBACK = "[None]";
@@ -1130,8 +1177,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = ENTRYFIELD;
-        SCREENRECT = UPPERLEFT: 207 282,
-                     BOTTOMRIGHT: 571 314,
+        SCREENRECT = UPPERLEFT: 589 281,
+                     BOTTOMRIGHT: 763 327,
                      CREATIONRESOLUTION: 800 600;
         NAME = "SaveLoad.wnd:EntryDesc";
         STATUS = ENABLED+IMAGE;
@@ -1185,8 +1232,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 195 222,
-                   BOTTOMRIGHT: 583 394,
+      SCREENRECT = UPPERLEFT: 586 224,
+                   BOTTOMRIGHT: 766 400,
                    CREATIONRESOLUTION: 800 600;
       NAME = "SaveLoad.wnd:DeleteConfirmParent";
       STATUS = ENABLED+HIDDEN;
@@ -1231,8 +1278,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 259 326,
-                     BOTTOMRIGHT: 383 358,
+        SCREENRECT = UPPERLEFT: 589 330,
+                     BOTTOMRIGHT: 763 362,
                      CREATIONRESOLUTION: 800 600;
         NAME = "SaveLoad.wnd:ButtonDeleteConfirm";
         STATUS = ENABLED+IMAGE;
@@ -1242,7 +1289,7 @@ WINDOW
         TOOLTIPCALLBACK = "[None]";
         DRAWCALLBACK = "[None]";
         FONT = NAME: "Placard MT Condensed", SIZE: 16, BOLD: 0;
-        HEADERTEMPLATE = "MainButton";
+        HEADERTEMPLATE = "ButtonSmall";
         TOOLTIPDELAY = -1;
         TEXT = "GUI:Yes";
         TEXTCOLOR = ENABLED:  255 255 255 255, ENABLEDBORDER:  0 0 0 255,
@@ -1279,8 +1326,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 403 326,
-                     BOTTOMRIGHT: 527 358,
+        SCREENRECT = UPPERLEFT: 589 365,
+                     BOTTOMRIGHT: 763 397,
                      CREATIONRESOLUTION: 800 600;
         NAME = "SaveLoad.wnd:ButtonDeleteCancel";
         STATUS = ENABLED+IMAGE;
@@ -1290,7 +1337,7 @@ WINDOW
         TOOLTIPCALLBACK = "[None]";
         DRAWCALLBACK = "[None]";
         FONT = NAME: "Placard MT Condensed", SIZE: 16, BOLD: 0;
-        HEADERTEMPLATE = "MainButton";
+        HEADERTEMPLATE = "ButtonSmall";
         TOOLTIPDELAY = -1;
         TEXT = "GUI:No";
         TEXTCOLOR = ENABLED:  255 255 255 255, ENABLEDBORDER:  0 0 0 255,
@@ -1327,10 +1374,10 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = STATICTEXT;
-        SCREENRECT = UPPERLEFT: 195 222,
-                     BOTTOMRIGHT: 583 310,
+        SCREENRECT = UPPERLEFT: 589 227,
+                     BOTTOMRIGHT: 763 327,
                      CREATIONRESOLUTION: 800 600;
-        NAME = "SaveLoad.wnd:";
+        NAME = "SaveLoad.wnd:StaticTextConfirmDelete";
         STATUS = ENABLED;
         STYLE = STATICTEXT+MOUSETRACK;
         SYSTEMCALLBACK = "[None]";
@@ -1374,53 +1421,6 @@ WINDOW
         STATICTEXTDATA = CENTERED: 1;
       END
       ENDALLCHILDREN
-    END
-    CHILD
-    WINDOW
-      WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 31 85,
-                   BOTTOMRIGHT: 749 86,
-                   CREATIONRESOLUTION: 800 600;
-      NAME = "SaveLoad.wnd:line";
-      STATUS = ENABLED;
-      STYLE = USER;
-      SYSTEMCALLBACK = "[None]";
-      INPUTCALLBACK = "[None]";
-      TOOLTIPCALLBACK = "[None]";
-      DRAWCALLBACK = "[None]";
-      FONT = NAME: "Times New Roman", SIZE: 14, BOLD: 0;
-      HEADERTEMPLATE = "[NONE]";
-      TOOLTIPDELAY = -1;
-      TEXTCOLOR = ENABLED:  255 255 255 0, ENABLEDBORDER:  255 255 255 0,
-                  DISABLED: 255 255 255 0, DISABLEDBORDER: 255 255 255 0,
-                  HILITE:   255 255 255 0, HILITEBORDER:   255 255 255 0;
-      ENABLEDDRAWDATA = IMAGE: NoImage, COLOR: 0 0 0 0, BORDERCOLOR: 47 55 168 255,
-                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
-      DISABLEDDRAWDATA = IMAGE: NoImage, COLOR: 0 0 64 255, BORDERCOLOR: 0 0 0 255,
-                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
-      HILITEDRAWDATA = IMAGE: NoImage, COLOR: 0 0 255 255, BORDERCOLOR: 0 0 0 255,
-                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
     END
     ENDALLCHILDREN
   END
